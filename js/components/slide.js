@@ -23,7 +23,7 @@ template.innerHTML = `
     }
   </style>
 
-  <div class="slideContainer">
+//   <div class="slideContainer">
     <div class="innerSlide">
       <h2></h2>
     </div>
@@ -59,7 +59,7 @@ class Slide extends HTMLElement {
   render() {
    this.title ? this.$slide.querySelector('.innerSlide h2').innerHTML = this.title : null;
    this.background ? this.$slide.style.background = this.background : null;
-   this.image ? this.$slide.style.background = `url("${this.image}") no-repeat center center fixed` : null;
+   this.image ? this.$slide.style.background = `url("${this.image}") no-repeat top center fixed` : null;
   }
 }
 

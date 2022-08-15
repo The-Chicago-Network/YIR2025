@@ -329,6 +329,10 @@
     flex-flow: row wrap;
 }
 
+article {
+        overflow-x: hidden;
+}
+
 .imageHolder {
     display: inline-block;
     width: 70vw;
@@ -501,7 +505,6 @@ p {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    width: 90vw;
 }
 
  .staffList {
@@ -548,6 +551,7 @@ p {
 	 display: flex;
 	 flex-flow: row wrap;
 	 justify-content: center;
+     max-width: 80vw
 }
  .statsWrapper .statWrapper {
 	 display: flex;

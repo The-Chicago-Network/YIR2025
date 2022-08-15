@@ -32,7 +32,6 @@ export const eventGenerator = (arr, container, colorArr) => {
 
 export const cardGenerator = (arr, container, className) => {
     arr.forEach((x) => {
-      console.log(x.imgUrl)
         document.querySelector(container).innerHTML += `
                 <basic-card class="${className}">
                 <div class="imageContainer">
