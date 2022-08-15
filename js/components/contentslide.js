@@ -19,6 +19,9 @@ template.innerHTML = `
       font-size: var(--hhhFontSize);
       font-variation-settings: var(--hhhVariationSettings);
       margin-bottom: 10rem;
+      background: linear-gradient(to right, #48a7a7, #4885aa);
+      -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
     }
 
     .innerSlide {
