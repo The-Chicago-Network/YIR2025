@@ -11,22 +11,983 @@
     <meta property="og:url" content="" />
     <meta property="og:image" content="" />
 
-    <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
     <meta name="theme-color" content="#fafafa" />
+    <script src="./js/wow.min.js" type="text/javascript"></script>
+    <script src="./js/rellax.min.js" type="text/javascript"></script>
+    <script type="module" src="./js/main.js"></script>
   </head>
 
   <body>
-    <!-- Add your site or application content here -->
-    <p>Hello world! This is HTML5 Boilerplate.</p>
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <noscript>
+      <p>
+        This site requires Javascript to function. Please enable javascript!
+      </p>
+    </noscript>
+    <article>
+      <section id="introduction">
+        <transition-slide background="white" class="fade-in-bottom">
+          <clip-vid
+            vidurl="./reencode.webm"
+            posterurl="./images/vidposter.webp"
+            overlayurl=""
+            cliptext="2022"
+            fontsize="30rem"
+            windowsize=""
+          >
+          </clip-vid>
+        </transition-slide>
+        <content-slide
+          title="Welcome from Denise Singleton & Linda Imonti"
+          class="wow fade-in-bottom"
+        >
+          <p>
+            Welcome to our 2021-2022 Year in Review! It has been an enriching
+            year, even in the extraordinary circumstances created by the
+            pandemic. It has been one of learning, growing, and reflecting, as
+            we pivoted effectively to meet our challenges. Throughout it all,
+            our purpose of empowering women to lead was our beacon. We listened
+            and met members where and when they needed us most. Member
+            engagement significantly increased, especially because of virtual
+            programming. This energy and enthusiasm for connecting with and
+            supporting others is reflected in the activities and initiatives
+            captured in this report. The Chicago Network’s voice in the battle
+            for gender equity and inclusion remains essential and relevant now
+            more than ever. Exponentially increasing the number of women in the
+            C-Suite and on corporate boards remains one of our key priorities.
+            We continue to identify and improve areas and opportunities for
+            women to succeed and lift them professionally and personally.<br><br>
+            Sincerely,
+          </p>
+          <div class="siggies">
+            <div class="signatureContainer">
+            <img class="hex wow fade-in-bottom hexImg" src="./images/Cade_Denise_LowerRes.jpg">
+              <p>Denise Singleton<br>Chair </p>
+          </div>
+          <div class="signatureContainer">
+            <img class="hex wow fade-in-bottom hexImg" src="./images/imonti_linda.jpg">
+            <p>Linda Imonti<br>Vice Chair</p>
+          </div>
+          </div>
+        </content-slide>
 
+        <content-slide
+          title="What We Stand for: Purpose, Mission, Vision, Values"
+          class="wow fade-in-bottom"
+        >
+          <table data-wow-duration=".35s" class="wow fade-in-bottom">
+            <tr>
+              <td id="value-green" class="color-bar"></td>
+              <td>
+                <p><strong>Purpose:</strong><br />Why do we exist?</p>
+              </td>
+              <td><p>To empower women to lead</p></td>
+            </tr>
+            <tr>
+              <td id="value-pink" class="color-bar"></td>
+              <td>
+                <p>
+                  <strong>Mission:</strong><br />How will we fulfill the
+                  promise?
+                </p>
+              </td>
+              <td>
+                <p>
+                  <strong>Connect</strong> with each other for personal and
+                  professional growth<br />
+                  <strong>Advance</strong> our civic, business and philanthropic
+                  communities<br />
+                  <strong>Inspire</strong> and support the next generation<br />
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td id="value-yellow" class="color-bar"></td>
+              <td>
+                <p>
+                  <strong>Vision:</strong><br />What is our vision of success?
+                </p>
+              </td>
+              <td>
+                <p>
+                  Gender Equity for Women of All Colors. At All Levels.
+                  Everywhere.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td id="value-dblue" class="color-bar"></td>
+              <td>
+                <p>
+                  <strong>Values:</strong><br />What core values shape our
+                  behaviors and actions?
+                </p>
+              </td>
+              <td>
+                <p>
+                  <strong>Empathy:</strong> We meet women where they are<br />
+                  <strong>Generosity:</strong> We selflessly pay it forward<br />
+                  <strong>Equity:</strong> We are relentless in righting the
+                  balance<br />
+                  <strong>Collectivity:</strong> We are stronger together
+                </p>
+              </td>
+            </tr>
+          </table>
+        </content-slide>
+      </section>
+
+      <section id="ourMembers">
+        <transition-slide
+          title=""
+          background="linear-gradient(#48a7a7, #9198e5)"
+          image="./images/general/Transitions/1_BW.webp"
+          class="wow fade-in-bottom"
+        >
+        </transition-slide>
+        <content-slide title="About Our Members" class="wow fade-in-bottom">
+          <div slot="outer" class="statsWrapper">
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">41</span>
+              </p>
+              <div class="hex statHex">
+                <p>Fortune 500 C-Suite Executives</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">2.8T</span>
+              </p>
+              <div class="hex statHex">
+                <p>
+                  Publicly held member companies represent more than 2.8
+                  Trillion in Market Cap
+                </p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">4.8M</span>
+              </p>
+              <div class="hex statHex">
+                <p>Member companies employ more than 4.8 million people</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">12</span>
+              </p>
+              <div class="hex statHex">
+                <p>Current and Former Fortune 500 CEOs</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">68%</span>
+              </p>
+              <div class="hex statHex">
+                <p>CRAIN's most Powerful Women in Chicago Business</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">20%</span>
+              </p>
+              <div class="hex statHex">
+                <p>CRAIN's Power 25 Chicagoans</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">6</span>
+              </p>
+              <div class="hex statHex">
+                <p>University Presidents</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">28</span>
+              </p>
+              <div class="hex statHex">
+                <p>Arts and Culture Trailblazers</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">50</span>
+              </p>
+              <div class="hex statHex">
+                <p>Corporate C-Suite Executives</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">53</span>
+              </p>
+              <div class="hex statHex">
+                <p>CEOs and Entrepreneurs of Mid-Size Companies</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">50+</span>
+              </p>
+              <div class="hex statHex">
+                <p>Corporate Directors</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">9</span>
+              </p>
+              <div class="hex statHex">
+                <p>Government Leaders</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">32</span>
+              </p>
+              <div class="hex statHex">
+                <p>Healthcare Industry Executives</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">30</span>
+              </p>
+              <div class="hex statHex">
+                <p>Higher Education Institution Leaders</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">48</span>
+              </p>
+              <div class="hex statHex">
+                <p>Non-Profit Trailblazers</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">34</span>
+              </p>
+              <div class="hex statHex">
+                <p>Media and Communications Executives</p>
+              </div>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom statWrapper"
+            >
+              <p>
+                <span class="stat">46</span>
+              </p>
+              <div class="hex statHex">
+                <p>Law Industry Leaders</p>
+              </div>
+            </div>
+          </div>
+        </content-slide>
+
+        <content-slide title="New Members" class="wow fade-in-bottom">
+          <div class="memberList wow fade-in-bottom">
+            <p>
+              <strong>Diane Earll</strong><br />USG Corporation<br />President,
+              Ceilings Division<br /><br />
+              <strong>Rhonda Ferguson</strong><br />Allstate Corporation<br />Executive
+              Vice President, Chief Legal Officer, General Counsel &
+              Secretary<br /><br />
+              <strong>Kristen Murtos</strong><br />NorthShore University
+              HealthSystem<br />Chief Administrative and Strategy Officer<br /><br />
+              <strong>Jaime Faulkner</strong><br />Chicago Blackhawks<br />President<br /><br />
+              <strong>Brooke Flanagan</strong><br />Steppenwolf Theatre
+              Company<br />Executive Director<br /><br />
+              <strong>Katie Rooney</strong><br />Alight<br />Chief Financial
+              Officer<br /><br />
+              <strong>Geraldine Keefe</strong><br />Goldman Sachs <br />Partner,
+              Co-Head of Midwest Investment Banking<br /><br />
+              <strong>Bobbie Byrne</strong><br />Advocate Aurora Health<br />Chief
+              Information Officer<br /><br />
+              <strong>Laurie Joyner</strong><br />Saint Xavier University<br />President<br /><br />
+              <strong>Linda Finkel</strong><br />AVIA<br />Chief Executive
+              Officer<br /><br />
+            </p>
+            <p>
+              <strong>Felicia Davis Blakley</strong><br />Chicago Foundation for
+              Women<br />President and CEO<br /><br />
+              <strong>Andrea Ingram Wiles</strong><br />DuPage Children's
+              Museum<br />President and CEO<br /><br />
+              <strong>Natalie Brown</strong><br />Mesirow<br />Chief Executive
+              Officer<br /><br />
+              <strong>Anna Paglia</strong><br />Invesco Ltd.<br />Managing
+              Director, Head of Global ETFs & Indexed Strategies<br /><br />
+              <strong>Anna May Trala</strong><br />GTCR<br />Managing Director
+              and Chief Financial Officer<br /><br />
+              <strong>Suzanne Yoon</strong><br />Kinzie Capital Partners<br />Founder,
+              Managing Partner<br /><br />
+              <strong>Marcella David</strong><br />Columbia College Chicago<br />Senior
+              Vice President and Provost<br /><br />
+              <strong>Mary Clare Bonaccorsi</strong><br />Polsinelli, P.C.<br />Chair,
+              Cross Department Litigation; Managing Partner, Chicago<br /><br />
+              <strong>Tracy Brown</strong><br />Chicago Public Media<br />Chief
+              Content Officer<br /><br />
+              <strong>Shelly Sun</strong><br />BrightStar Care<br />CEO and
+              Founder<br /><br />
+              <strong>Rebekah Scheinfeld</strong><br />Civic Consulting
+              Alliance<br />CEO and President
+            </p>
+          </div>
+        </content-slide>
+      </section>
+
+      <section id="herStories">
+        <transition-slide
+          title=""
+          background="linear-gradient(#48a7a7, #9198e5)"
+          image="./images/mockups/mockuper(1).webp"
+          class="wow fade-in-bottom"
+        >
+        </transition-slide>
+        <content-slide
+          title="Introducing the HerStories Podcast"
+          class="wow fade-in-bottom"
+        >
+          <img
+            class="cardImage"
+            src="./images/mockups/browser.webp"
+            alt="A browser window open to https://herstories.fm."
+          />
+        </content-slide>
+      </section>
+
+      <section id="equityPrinciples">
+        <transition-slide
+          title=""
+          background="linear-gradient(#48a7a7, #9198e5)"
+          class="wow fade-in-bottom"
+        >
+        </transition-slide>
+        <content-slide
+          title="Broader Influence and Advocacy with Equity Principles"
+          spiel="The Chicago Network is honored to work our Equity Principles Campaign partners to fight for gender equity in leadership ranks as well as strengthen the pipeline for women leaders. Our focus on achieving gender equity in the workplace and safeguarding against any further setbacks, particularly resulting from the pandemic, is more critical than ever. Targeting for gender equity by 2030 aligns us with the globally recognized benchmark set by the United Nations’ Sustainable Development Goals, as well as a growing number of state and national governments and public, private, and international organizations.<br><br>
+          We are excited to continue our Equity Principles Campaign journey by capturing baseline workforce data. Towards that end, we partnered with Mercer, a global HR consulting firm who specializes in diversity and inclusion. Mercer worked with us to gather and measure data using their When Women Thrive survey. For Phase I, Campaign partners participated in this process through a survey, providing some individually de-identified workforce data.<br><br>
+          The Equity Principles Campaign survey results were anonymously incorporated into Mercer’s When Women Thrive, Businesses Thrive Global Report, the world’s most comprehensive research on women in the workplace, designed to uncover the critical drivers of a successful gender diversity strategy. The Chicago Network will use this information to assist Campaign Partners adopt best practices to achieve gender equity."
+          class="wow fade-in-bottom"
+        >
+          <div slot="outer" class="objectField" id="logoCards"></div>
+        </content-slide>
+      </section>
+
+      <section id="programs">
+        <transition-slide
+          title=""
+          background="linear-gradient(#48a7a7, #9198e5)"
+          class="wow fade-in-bottom"
+        >
+        </transition-slide>
+        <content-slide
+          title="WhatItTakes: Empowering Women to Lead"
+          background="#ad96a4"
+          textcolor="white"
+          class="wow fade-in-bottom"
+        >
+          <div slot="outer" class="objectField" id="events"></div>
+        </content-slide>
+      </section>
+
+      <section id="womenOnBoards">
+        <transition-slide
+          title=""
+          background="linear-gradient(#48a7a7, #9198e5)"
+          class="wow fade-in-bottom"
+        >
+        </transition-slide>
+        <content-slide
+          title="Women on Boards"
+          spiel="As a part of our key initiative to increase the number of women in board positions, this year we began development on an ambitious, one-of-a-kind effort to compile a premier source for women leaders in Chicago. For the first time, we are pleased to publicly announce that we will soon launch a searchable board database from our venerable membership of over 500 of Chicago's most powerful women. Upon release, board members and recruiters will be able to quickly identify top-tier, diverse talent with the click of a mouse. A project of great personal importance to The Chicago Network Chair Denise Singleton, we believe that this unique database will make achieving board-room gender parity simpler than ever before."
+        >
+          <div id="silhouettes">
+            <img
+              src="./images/silhouette1.svg"
+              class="parallax silhouette"
+              data-rellax-speed="5"
+            />
+            <img
+              src="./images/silhouette2.svg"
+              class="parallax silhouette"
+              data-rellax-speed="10"
+            />
+            <img
+              src="./images/silhouette3.svg"
+              class="parallax silhouette"
+              data-rellax-speed="15"
+            />
+          </div>
+        </content-slide>
+      </section>
+
+      <section id="annualMeeting">
+        <transition-slide
+          title=""
+          background="linear-gradient(#48a7a7, #9198e5)"
+          class="wow fade-in-bottom"
+        >
+        </transition-slide>
+        <content-slide
+          title="Annual Meeting"
+          spiel="Our Annual Meeting was a truly inspiring event. We elected a new slate of Board of Directors, celebrated friendships, and enjoyed the beauty and exhibits of the Chicago History Museum. The program’s theme, “Celebrating Women Firsts”, with our history making panel; Joy Cunningham, Presiding Justice, Illinois Appellate Court, 2nd Division, Ilene Gordon, Former Chairman, President and CEO, Ingredion Incorporated, Lisa Madigan, Partner, Kirkland & Ellis LLP, and Jill Wine-Banks, MSNBC Legal Analyst; Author, “The Watergate Girl”, NBC/MSNBC and moderated by, Tracy Brown, Chief Content Officer, Chicago Public Media, led a dynamic and engaging conversation.  Hearing their leadership journeys and insights on being the first their respective fields was fascinating and moving."
+          class="wow fade-in-bottom"
+        >
+          <div class="AMPics" slot="outer"></div>
+        </content-slide>
+      </section>
+
+      <section id="WIFL">
+        <transition-slide
+          title=""
+          background="linear-gradient(#48a7a7, #9198e5)"
+          class="wow fade-in-bottom"
+        >
+        </transition-slide>
+        <content-slide
+          title="Women in the Forefront Luncheon Celebration"
+          spiel="This year, our Women in the Forefront Luncheon (WIFL) honored Juneteenth and reflected, rejoiced, and showcased the spirit and strength of Black America. We were thrilled to have back Irika Sargent, News Anchor, CBS 2 who once again served as our Emcee. Shawna Thomas, Executive Producer, CBS Mornings joined us as moderator and our keynote speakers Sheila Johnson, Founder and CEO of Salamander Hotels and Resorts and Michele C. Meyer-Shipp, CEO of Dress for Success Worldwide shared their extraordinary leadership journeys, which were both inspirational and in harmony with our purpose, mission, vision, and values. The energy and enthusiasm over 1400 in-person and 400 virtual attendees was outstanding."
+          class="wow fade-in-bottom"
+        >
+          <div class="WIFLPics" slot="outer"></div>
+        </content-slide>
+      </section>
+
+      <section id="leadershipAndTeam">
+        <transition-slide
+          title=""
+          background="linear-gradient(#48a7a7, #9198e5)"
+          class="wow fade-in-bottom"
+        >
+        </transition-slide>
+
+        <content-slide title="Board of Directors" class="wow fade-in-bottom">
+          <div class="memberList wow fade-in-bottom">
+            <p>
+              <strong>Chair</strong>
+              <br />
+              Denise Singleton
+              <br />
+              EVP, General Counsel & Secretary,
+              <br /><br />
+              WestRock Company
+              <br /><br />
+              <strong>Vice Chair/Chair-Elect</strong>
+              <br />
+              Linda Imonti
+              <br />Office Managing Principal
+              <br />
+              KPMG LLP
+              <br /><br />
+              <strong>Secretary-Treasurer/ Finance & Audit Chair</strong>
+              <br />
+              Deb Boyda
+              <br />
+              Independent Board Director, Former CEO, Isobar
+              <br /><br />
+              <strong>Immediate Past Chair/Nominating Committee Chair</strong>
+              <br />
+              Cary Grace
+              <br />
+              Independent Board Director, Former CEO, Global Retirement &
+              Investments, AON
+              <br /><br />
+              <strong>Communications Chair</strong>
+              <br />
+              Kary McIIwain
+              <br />
+              CMO & CCO
+              <br />
+              Ann & Robert H. Lurie Childrens Hospital of Chicago
+              <br /><br />
+              <strong>Media & Communications Subcommittee Chair</strong>
+              <br />
+              Teri Arvesu
+              <br />
+              SVP Social Impact & Sustainability
+              <br />
+              TelevisaUnivision
+              <br /><br />
+              <strong>At Large</strong>
+              <br />
+              Tracey Benford
+              <br />
+              Managing Director, Midwest, Canadian, Southwest FICC & Equity
+              <br />
+              Goldman Sachs
+            </p>
+            <p>
+              <strong>Financial Services Subcommittee Chair</strong>
+              <br />
+              Sidney Dillard
+              <br />
+              Partner & Head of Corporate Investment Banking
+              <br />
+              Loop Capital Markets
+              <br /><br />
+              <strong>Women on Boards Committee Chair</strong>
+              <br />
+              Sara Greenstein
+              <br />
+              President & CEO
+              <br />
+              Axel Johnson Inc.
+              <br /><br />
+              <strong>Programs & Engagement Committee Chair</strong>
+              <br />
+              Cathy Kenworthy
+              <br />
+              Founder & President
+              <br />
+              Health Hippo
+              <br /><br />
+              <strong>WIFL Co-Chair</strong>
+              <br />
+              Beth Kirk Malecki
+              <br />
+              Senior Partner, Chicago Office Leader
+              <br />
+              Mercer
+              <br /><br />
+              <strong>Membership Committee Chair</strong>
+              <br />
+              Suzet McKinney
+              <br />
+              Principal & Director of Life Sciences
+              <br />
+              Sterling Bay
+              <br /><br />
+              <strong>WIFL Co-Chair</strong>
+              <br />
+              Diane Offereins
+              <br />
+              EVP, President Payment Services
+              <br />
+              Discover Financial Services
+              <br /><br />
+              <strong>Governance Committee Chair</strong>
+              <br />
+              Angela Williams
+              <br />
+              President & CEO
+              <br />
+              United Way Worldwide
+              <br /><br />
+            </p>
+            <p>
+              <strong>Corporate Subcommittee Chair</strong>
+              <br />
+              Yasmine Winkler
+              <br />
+              Independent Board Director, Former CEO, Central Region, United
+              Health Care
+              <br /><br />
+              <strong>At Large</strong>
+              <br />
+              Patricia Brown Holmes
+              <br />
+              Managing Partner
+              <br />
+              Riley Safer Holmes & Cancila LLP
+              <br /><br />
+              Marsha Cruzan<br />Regional Market President<br />US Bank
+              <br /><br />
+              Francesca DeBiase<br />EVP, Global Chief Supply Chain Officer<br />McDonald's
+              Corporation <br /><br />
+              Grace Hou<br />Secretary<br />Illinois Department of Human
+              Services <br /><br />
+              Roxanne Martino<br />Managing Partner<br />OceanM19 <br /><br />
+              Joyce St. Clair<br />Former Chief Human Resource Officer<br />Northern
+              Trust
+            </p>
+          </div>
+        </content-slide>
+
+        <content-slide title="Committees">
+          <div class="memberList wow fade-in-bottom">
+            <p>
+              <strong>Executive Committee</strong><br />
+              Denise Singleton, Chair<br />
+              Cary Grace<br />
+              Deb Boyda<br />
+              Linda Imonti<br />
+              Suzet McKinney<br />
+              <br />
+              <strong>Finance and Audit Committee</strong><br />
+              Deb Boyda, Chair<br />
+              Tracey Benford<br />
+              Sidney Dillard<br />
+              Linda Imonti<br />
+              Roxanne Martino<br /><br />
+
+              <strong>Governance Committee</strong><br />
+              Angela Williams, Chair<br />
+              Marsha Cruzan<br />
+              Patricia Brown Holmes<br />
+              Grace Hou<br /><br />
+
+              <strong>Membership Committee</strong><br />
+              Suzet McKinney, Chair<br />
+              Teri Arvesu, Chair, Media & Communications Subcommittee<br />
+              Verneda Bachus, Chair, Health, Science & Medicine Subcommittee
+              <br />
+              Gina Berndt, Chair, Professional Services & Associations
+              Subcommittee<br />
+              Cathy Birkland, Chair, Law Subcommittee<br />
+              Sidney Dillard, Chair, Financial Services Subcommittee<br />
+              Sarah Herda, Chair, Arts & Culture Subcommittee<br />
+              Jane Mentzinger, Chair, Nonprofit Subcommittee<br />
+              Susan Poser, Chair, Higher Education Subcommittee<br />
+              Julie Scott, Chair, Mid-Size Private Companies Subcommittee<br />
+              Z. Scott, Chair, Government Subcommittee<br />
+              Yasmine Winkler, Chair, Corporate Subcommittee <br /><br />
+
+              <strong>Communications Committee</strong><br />
+              Kary McIlwain, Chair<br />
+              Gayla Brockman<br />
+              Kathleen Carroll<br />
+              Yvonne Franzese<br />
+              Lindsey Jenkins<br />
+              Diane Pearse<br />
+              Aurelie Richard<br />
+              Michelle Russell<br /><br />
+
+              <strong>Emerita Committee</strong><br />
+              Elizabeth Richter, Chair<br />
+              Barbara Provus<br />
+              Anna Rappaport<br />
+              Toni Smith<br /><br />
+
+              <strong>Launchpad</strong><br />
+              Shan Bhati<br />
+              Francesca Cornelli <br />
+              Aarti Dhupelia <br />
+              Karyn Esken <br />
+              Yonhee Gordon <br />
+              Teresa Wilton Harmon <br />
+              Laurie Joyner <br />
+              Maria Pesqueira<br />
+              Tracie Morris<br />
+              Aurelie Richard <br />
+              Heather Russell<br />
+              Kathy Scherer <br /><br />
+
+              <strong>Programs & Engagement Committee</strong><br />
+              Cathy Kenworthy, Chair<br />
+              Bonnie Allen <br />
+              Aurora Austriaco<br />
+              Tracey Benford<br />
+              Deborah Bowen<br />
+              Barbra Bukovac<br />
+              Karen Case<br />
+              Maria Carrillo<br />
+              Elizabeth Coolidge<br />
+              Regine Corrado<br />
+              Monica Davey<br />
+              Angelique David<br />
+              Mitra Dutta<br />
+              Opella Ernest<br />
+              Karyn Esken<br />
+              Pamela Forbes Lieberman<br />
+              Sarah Guernsey<br />
+              Sandra Helton<br />
+              Mary Jo Herseth<br />
+              Grace Hou<br />
+              Erin Inman<br />
+              Katie Lawler<br />
+              Marilyn Lissner<br />
+              Dorri McWhorter<br />
+              Nivine Megahed<br />
+              Carla Michelotti<br />
+              Theresa Mintle<br />
+              Jill Nicholson<br />
+              Jenny Niemann<br />
+              Diane Primo<br />
+              Elizabeth Richter<br />
+              Jacqueline Stewart<br />
+              Joyce St. Clair<br />
+              Ann Thompson<br />
+              Anna Valencia<br />
+              Brooke Wiseman<br />
+              Amanda Woodward<br />
+              Kathleen Yosko<br /><br />
+            </p>
+            <p>
+              <strong>Women in the Forefront Luncheon Committee</strong><br />
+              Beth Kirk Malecki, Co-Chair<br />
+              Diane Offereins, Co-Chair<br />
+              Julie Scott, Co-Chair<br />
+              Sue Bettman<br />
+              Regine Corrado<br />
+              Francesca DeBiase<br />
+              Kathy Seegebrecht<br />
+              Jill Smart<br />
+              Joyce St. Clair<br />
+              Yasmine Winkler<br /><br />
+
+              <strong>Women on Boards Committee</strong><br />
+              Sara Greenstein, Chair<br />
+              Deb Boyda<br />
+              Katie Doyle<br />
+              Mary Josephs<br />
+              Blythe McGarvie<br />
+              Tierney Remick<br />
+              Denise Singleton<br />
+              Yasmine Winkler<br />
+              Ann Ziegler<br /><br />
+
+              <strong>Arts & Culture Subcommittee</strong><br />
+              Sarah Herda, Chair<br />
+              Susan Abrams<br />
+              Jean Franczyk <br />
+              Sarah Guernsey<br />
+              Perri Imer<br />
+              Megan Ross<br />
+              Lynn Osmond<br />
+              Laura Sadler<br />
+              Joyce Simon<br /><br />
+
+              <strong>Corporate Subcommittee</strong><br />
+              Yasmine Winkler, Chair<br />
+              Therese Fauerbach<br />
+              Laura Gurski<br />
+              Trish Lukasik<br />
+              Beth Kirk Malecki<br />
+              Laurie O’Shea<br />
+              Talita Ramos Erickson<br />
+              Kathy Seegebrecht<br />
+              Ann Ziegler<br /><br />
+
+              <strong>Financial Services Subcommittee</strong><br />
+              Sidney Dillard, Chair<br />
+              Tracey Benford<br />
+              Elizabeth Betten<br />
+              Gwen Butler<br />
+              Mary Josephs<br />
+              Beth Karlson<br />
+              Roxanne Martino<br />
+              Joyce St. Clair<br />
+              Julie Vander Weele<br /><br />
+
+              <strong>Government Subcommittee</strong><br />
+              Z. Scott, Chair<br />
+              Melissa Bean<br />
+              Kim Foxx <br />
+              Bridget Gainer<br />
+              Lori Healey<br />
+              Janice Jackson<br />
+              Robin Kelly<br />
+              Juliana Stratton<br /><br />
+
+              <strong>Health, Science & Medicine Subcommittee</strong><br />
+              Verneda Bachus, Chair<br />
+              Cynthia Barginere<br />
+              Jan Berger<br />
+              Deborah Bowen<br />
+              Cheryl Lulias<br />
+              Lisa Johnson<br />
+              Michelle Stephenson<br />
+              Dana Thompson<br />
+              Brenda Wolf <br />
+              Kathleen Yosko<br /><br />
+            </p>
+            <p>
+              <strong>Higher Education Membership Subcommittee</strong><br />
+              Susan Poser, Chair<br />
+              Donna Carroll<br />
+              Beth Harris<br />
+              Elaine Maimon<br />
+              Stephanie Marshall<br />
+              Marilyn McCoy<br />
+              Nivine Megahed<br />
+              Jennifer Rosato Perea<br />
+              Rebecca Rugg<br />
+              Elissa Tenny<br /><br />
+
+              <strong>Law Membership Subcommittee</strong><br />
+              Cathy Birkeland, Chair<br />
+              Rebecca Bacon<br />
+              Christine Edwar<strong></strong> ds<br />
+              Esther Franco-Payne<br />
+              Mary Ann Hynes<br />
+              Devi Koya<br />
+              Joan Lefkow<br />
+              Terri Mascherin<br />
+              Maura Ann McBreen<br />
+              Mary Meg McCarthy<br /><br />
+
+              <strong>Media & Communications Membership Subcommittee</strong
+              ><br />
+              Teri Arvesu, Chair<br />
+              Shan Bhati<br />
+              Cari Bucci-Hulings<br />
+              Karyn Esken<br />
+              E.T. Franklin<br />
+              Jennifer Graves<br />
+              Susan Jacobs<br />
+              Renetta McCann<br />
+              Sandra Cordova Micek<br />
+              Alison Scholly<br />
+              Maxine Winer<br /><br />
+
+              <strong>Mid-Size Private Companies Membership Subcommittee</strong
+              ><br />
+              Julie Scott, Chair<br />
+              Caroline Becker Joss<br />
+              Rona Borre<br />
+              Eileen Chin<br />
+              Anne Edwards-Cotter<br />
+              Alison Gutterman<br />
+              Stephanie Hickman<br />
+              Erin Inman<br />
+              Cheryl Lulias<br />
+              Laura Neiman<br />
+              Jenny Niemann<br />
+              Ellen Rudnick<br />
+              Donna Williamson<br /><br />
+
+              <strong>Nonprofit Membership Subcommittee</strong><br />
+              Jane Mentzinger, Chair<br />
+              Heather Anichini<br />
+              MarySue Barrett<br />
+              Gillian Darlow<br />
+              Maria Kim<br />
+              Alison Ranney<br />
+              Angela Williams<br />
+              Brooke Wiseman<br /><br />
+
+              <strong
+                >Professional Services & Associations Membership
+                Subcommittee</strong
+              ><br />
+              Gina Berndt, Chair<br />
+              Donni Case <br />
+              Lisa Johnson<br />
+              Jackie Koo<br />
+              Kathy Scherer<br />
+              Jill Smart<br />
+            </p>
+          </div>
+        </content-slide>
+
+        <content-slide title="Staff" class="wow fade-in-bottom">
+          <div data-wow-duration=".35s" class="wow fade-in-bottom staffList">
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom staffContainer"
+            >
+              <div class="mugshot hex">
+                <img src="images/mugshots/maria.jpg" />
+              </div>
+              <p>
+                <strong>Maria Doughty</strong><br />
+                President and CEO<br />
+                312 787 1990
+              </p>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom staffContainer"
+            >
+              <div class="mugshot hex">
+                <img src="images/mugshots/ellen.jpg" />
+              </div>
+              <p>
+                <strong>Ellen S. Feinberg</strong><br />
+                Executive Coordinator/Director of Operations<br />
+                312 787 1979<br />
+              </p>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom staffContainer"
+            >
+              <div class="mugshot hex">
+                <img src="images/mugshots/lora.jpg" />
+              </div>
+              <p>
+                <strong>Lora Joffe</strong><br />
+                Director of Programs and Member Experience<br />
+                312 787 1994<br />
+              </p>
+            </div>
+            <div
+              data-wow-duration=".35s"
+              class="wow fade-in-bottom staffContainer"
+            >
+              <div class="mugshot hex">
+                <img src="images/mugshots/nathanu.jpg" />
+              </div>
+              <p>
+                <strong>Nathan Upchurch</strong><br />
+                Director of Design and Innovation<br />
+                312 787 7936<br />
+              </p>
+            </div>
+          </div>
+        </content-slide>
+      </section>
+    </article>
   </body>
 </html>
