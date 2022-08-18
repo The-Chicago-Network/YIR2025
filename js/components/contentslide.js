@@ -7,7 +7,6 @@ template.innerHTML = `
       color: var(--contentTextColor);
       width: 100vw;
       min-height: 100vh;
-      padding-top: 5rem;
       display: flex;
       align-items: center;
       flex-flow: column nowrap;
@@ -26,7 +25,9 @@ template.innerHTML = `
 
     .innerSlide {
       margin: 0 auto 0 auto;
-      max-width: 70rem;;
+      max-width: 70vw;
+      padding-left: 5vw;
+      padding-right: 5vw;
     }
 
     p {

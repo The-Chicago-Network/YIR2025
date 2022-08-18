@@ -3,19 +3,19 @@
     --slideImageBG: white;
     --slideImgOpacity: .8;
     --slideHeaderColor: white;
-    --hhFontSize: 7rem;
+    --hhFontSize: 6rem;
     --hhFontFamily: "PT Sans";
     --hhFontWeight: 400;
 
     /* Content Slide Custom Properties */
     --contentTextColor: black;
     --hhhFontFamily: "Literata";
-    --hhhFontSize: 6rem;
+    --hhhFontSize: 5rem;
     --hhhVariationSettings: "wght" 530, "opsz" 72;
     --pFontFamily: "PT Sans";
     --pFontWeight: 400;
-    --pFontSize: 1.55rem;
-    --pLineHeight: 1.5;
+    --pFontSize: 1.25rem;
+    --pLineHeight: 3rem;
 
 }
 
@@ -329,17 +329,13 @@
     flex-flow: row wrap;
 }
 
-article {
-        overflow-x: hidden;
-}
-
 .imageHolder {
     display: inline-block;
     width: 70vw;
 }
 
 .cardImage {
-    max-width: 60rem;
+    max-width: 70vw;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
 }
 
@@ -350,6 +346,12 @@ article {
 .fade-in-bottom {
 	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.2s both;
 	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.2s both;
+}
+
+.flexContainer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
 }
 
 .galleryPic {
@@ -497,18 +499,6 @@ p {
 
 .signatureContainer {
     margin-right: 5rem;
-}
-
-.silhouette {
-    opacity: .6;
-    z-index: 0;
-    position: relative;
-}
-
-#silhouettes {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
 }
 
  .staffList {

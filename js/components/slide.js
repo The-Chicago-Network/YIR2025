@@ -6,7 +6,7 @@ template.innerHTML = `
       background-color: var(--slideImageBG);
       width: 100vw;
       height: 100vh;
-      padding-bottom: 5rem;
+      /* padding: 5rem;*/
       background-size: cover;
     }
 
@@ -23,7 +23,7 @@ template.innerHTML = `
     }
   </style>
 
-//   <div class="slideContainer">
+   <div class="slideContainer">
     <div class="innerSlide">
       <h2></h2>
     </div>
@@ -60,6 +60,7 @@ class Slide extends HTMLElement {
    this.title ? this.$slide.querySelector('.innerSlide h2').innerHTML = this.title : null;
    this.background ? this.$slide.style.background = this.background : null;
    this.image ? this.$slide.style.background = `url("${this.image}") no-repeat top center fixed` : null;
+   this.image ? this.$slide.style.backgroundSize = `cover` : null;
   }
 }
 
