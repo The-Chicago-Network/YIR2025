@@ -20,6 +20,7 @@ template.innerHTML = `
       padding: 20rem 0 0 0;
       text-align: center;
       text-transform: uppercase;
+      line-height: 7rem;
     }
   </style>
 

@@ -20,7 +20,8 @@ template.innerHTML = `
       margin-bottom: 10rem;
       background: linear-gradient(to right, #48a7a7, #4885aa);
       -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+      -webkit-background-clip: text;
+      line-height: 7rem;
     }
 
     .innerSlide {
@@ -78,7 +79,8 @@ class contentSlide extends HTMLElement {
    this.title ? this.$slide.querySelector('h3').innerHTML = this.title : null;
    this.spiel ? this.$slide.querySelector('p').innerHTML = this.spiel : null;
    this.background ? this.$slide.style.background = this.background : null;
-   this.textcolor ? this.$slide.style.color = this.textcolor : null;
+   this.textcolor ? this.$slide.querySelector('h3').style.color = this.textcolor : null;
+   this.textcolor ? this.$slide.querySelector('h3').style.webkitTextFillColor = this.textcolor : null;
   }
 }
 

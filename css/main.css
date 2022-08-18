@@ -339,9 +339,12 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
 }
 
+
+
 #events {
     max-width: 80vw;
 }
+
 
 .fade-in-bottom {
 	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.2s both;
@@ -463,14 +466,16 @@ h2 {
 }
  .memberList p {
 	 margin-right: 3rem;
-	 margin-top: 3rem;
+	 margin-top: 1rem;
 	 font-size: 0.8rem;
 	 width: 25%;
+     line-height: 1rem;
 }
  @media screen and (max-width: 1000px) {
 	 .memberList p {
-		 font-size: 3rem;
+		 font-size: 1rem;
 		 min-width: 100%;
+         line-height: 1.25rem;
 	}
 }
 
@@ -525,6 +530,7 @@ p {
 
 .staffContainer p {
     font-size: 1rem;
+    line-height: 1.25;
 }
 
  @media screen and (max-width: 1000px) {
@@ -568,6 +574,7 @@ p {
 	 font-size: 7rem;
 	 margin-right: 1rem;
 	 margin-left: 2rem;
+
 }
  .statWrapper:nth-child(2), .statWrapper:nth-child(4) {
 	 max-width: 25rem;
@@ -578,11 +585,11 @@ p {
 	}
 }
  .statWrapper:nth-child(2) p, .statWrapper:nth-child(4) p {
-	 font-size: 0.85rem;
+	 font-size: .8rem;
 }
  @media screen and (max-width: 1000px) {
 	 .statWrapper:nth-child(2) p, .statWrapper:nth-child(4) p {
-		 font-size: 2.5rem;
+		 font-size: .8rem;
 	}
 }
 @media screen and (min-width: 1245px) {
@@ -623,6 +630,7 @@ p {
 	 padding-right: 1.5rem;
 	 margin: auto;
      font-size: 1rem;
+     line-height: 1.25rem;
 }
  @media screen and (max-width: 1000px) {
 	 .statHex p {

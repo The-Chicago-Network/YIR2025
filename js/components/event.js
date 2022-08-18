@@ -29,7 +29,7 @@ template.innerHTML = `
     <div class="event">
         <div class="eventHex"></div>
         <div class="h4Container">
-            <h4><em></em></h4>
+            <h4 style="color: white; font-family: 'PT Sans'"><em></em></h4>
         </div>
     </div>
 `;
