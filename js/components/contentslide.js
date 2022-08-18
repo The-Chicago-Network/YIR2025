@@ -2,17 +2,6 @@
 
 template.innerHTML = `
   <style>
-    .slideContainer {
-      background-color: var(--slideImageBG);
-      color: var(--contentTextColor);
-      width: 100vw;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      flex-flow: column nowrap;
-      padding-bottom: 5rem;
-    }
-
     h3 {
       font-family: var(--hhhFontFamily);
       font-size: var(--hhhFontSize);
@@ -36,6 +25,36 @@ template.innerHTML = `
       font-weight: var(--pFontWeight);
       font-size: var(--pFontSize);
       line-height: var(--pLineHeight);
+    }
+
+    @media all and (max-width: 1000px) {
+        h3 {
+          font-family: var(--hhhFontFamily);
+          font-size: 2.5rem;
+          font-variation-settings: var(--hhhVariationSettings);
+          margin-bottom: 4rem;
+          background: linear-gradient(to right, #48a7a7, #4885aa);
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+          line-height: 4rem;
+        }
+        p {
+          font-family: var(--pFontFamily);
+          font-weight: var(--pFontWeight);
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+      }
+
+    .slideContainer {
+      background-color: var(--slideImageBG);
+      color: var(--contentTextColor);
+      width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-flow: column nowrap;
+      padding-bottom: 5rem;
     }
 
   </style>

@@ -22,6 +22,14 @@ template.innerHTML = `
       text-transform: uppercase;
       line-height: 7rem;
     }
+
+    @media all and (max-width: 1000px) {
+        h2 {
+          font-size: 2.5rem;
+          margin-bottom: 4rem;
+          line-height: 4rem;
+        }
+      }
   </style>
 
    <div class="slideContainer">

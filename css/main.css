@@ -334,6 +334,10 @@
     width: 70vw;
 }
 
+body {
+        overflow-x: hidden;
+}
+
 .cardImage {
     max-width: 70vw;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
@@ -617,10 +621,10 @@ p {
 }
  @media screen and (max-width: 1000px) {
 	 .statHex {
-		 height: 30rem;
-		 width: 30rem;
-		 min-height: 30rem;
-		 min-width: 30rem;
+		 height: 10rem;
+		 width: 10rem;
+		 min-height: 10rem;
+		 min-width: 10rem;
 		 font-size: 2.5rem;
 	}
 }
