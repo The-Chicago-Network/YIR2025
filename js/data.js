@@ -584,3 +584,21 @@ export const logos = [
       "https://dl.airtable.com/.attachments/26cb0a928265445211daa083da0f74e9/7aefa3a8/ziegler-logo.png",
   },
 ];
+
+export const strategicPlanItems = [
+  {
+    img: "./images/strategicPlan/retain.svg",
+    imgAlt: "",
+    textContent: "<strong>Retain</strong> exclusivity, engagement, and high ROI for TCN members, while working purposefully toward having the diversity of the membership reflect the diversity of the professional women in the City"
+  },
+  {
+    img: "./images/strategicPlan/serve.svg",
+    imgAlt: "",
+    textContent: ""
+  },
+  {
+    img: "./images/strategicPlan/engage.svg",
+    imgAlt: "",
+    textContent: ""
+  }
+];

@@ -59,7 +59,7 @@ template.innerHTML = `
 
   </style>
 
-  <div class="slideContainer">
+  <div class="paragraphBoxContainer">
     <div class="innerSlide">
       <h3></h3>
       <p></p>
