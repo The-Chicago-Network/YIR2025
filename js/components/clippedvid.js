@@ -2,6 +2,19 @@
 
 template.innerHTML = `
   <style>
+    .clipVidContainer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          padding-top: 36vh;
+
+          }
+
+          @media screen and (max-width: 1000px) {
+              .clipVidContainer {
+                      padding-top: 20vh
+          }
+      }
     #background-video {
         width: 100vw;
         height: 100vh;

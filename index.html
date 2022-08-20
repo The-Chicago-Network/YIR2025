@@ -29,6 +29,20 @@
         This site requires Javascript to function. Please enable javascript!
       </p>
     </noscript>
+    <nav class="wow fadeInTop" data-wow-duration=".3s">
+            <div id="navlogo">
+                <a href="https://thechicagonetwork.org">
+                    <img src="images/TCN_logo_white.svg">
+                </a>
+            </div>
+
+            <div id="navlinks">
+                <a class="navLink" href="#welcome"><button>Welcome</button></a>
+                <a class="navLink" href="#initiatives"><button>Initiatives</button></a>
+                <a class="navLink" href="#members"><button>Members</button></a>
+                <a class="navLink" href="#programming"><button>Programming</button></a>
+            </div>
+        </nav>
     <article>
       <section id="introduction">
         <transition-slide background="white" class="fade-in-bottom">
@@ -37,7 +51,7 @@
             posterurl="./images/vidposter.webp"
             overlayurl=""
             cliptext="2022"
-            fontsize="20rem"
+            fontsize="40vw"
             windowsize=""
           >
           </clip-vid>
@@ -45,6 +59,7 @@
         <content-slide
           title="Welcome from Denise Singleton & Linda Imonti"
           class="wow fade-in-bottom"
+          id="welcome"
         >
           <p>
             Welcome to our 2021-2022 Year in Review!  The Chicago Network continues to thrive as we elevate our members and their communities through fostering our purpose, mission, values, and vision.  We have much to celebrate as we reflect on our accomplishments this past year.<br><br>
@@ -139,7 +154,7 @@
           image="./images/general/Transitions/1_BW.webp"
         >
         </transition-slide>
-        <content-slide title="About Our Members" class="wow fade-in-bottom">
+        <content-slide title="About Our Members" class="wow fade-in-bottom" id="members">
           <div slot="outer" class="statsWrapper">
             <div
               data-wow-duration=".35s"
@@ -397,6 +412,7 @@
           title="Introducing the HerStories Podcast"
           class="wow fade-in-bottom"
           spiel="We are pleased to announce the return of HerStories in the form of a new podcast hosted by President & CEO Maria Doughty. Join Maria for unscripted conversations with Chicago's most powerful women as they reveal their inspirational journeys, including the highs, lows, challenges, and their hopes for the future."
+          id="initiatives"
         >
           <div class="flexContainer">
             <img
@@ -440,6 +456,7 @@
           background="#ad96a4"
           textcolor="white"
           class="wow fade-in-bottom"
+          id="programming"
         >
           <div slot="outer" class="objectField" id="events"></div>
         </content-slide>
@@ -455,7 +472,7 @@
         </transition-slide>
         <content-slide
           title="Women on Boards"
-          spiel="As a part of our key initiative to increase the number of women in board positions, this year we began development on an ambitious, one-of-a-kind effort to compile a premier source for women leaders in Chicago. For the first time, we are pleased to publicly announce that we will soon launch a searchable board database from our venerable membership of over 500 of Chicago's most powerful women. Upon release, board members and recruiters will be able to quickly identify top-tier, diverse talent with the click of a mouse. A project of great personal importance to The Chicago Network Chair Denise Singleton, we believe that this unique database will make achieving board-room gender parity simpler than ever before."
+          spiel="A key priority of our new strategic plan is the Women on Boards initiative. This includes assisting members to be board ready, to secure positions, and to be valuable directors. In furtherance of this effort, we developed a searchable public board database of our venerable members. Once launched, anyone, including, recruiters, C-Suite executives, and board members, will be able to identify top-tier talent with a click of a mouse. We are confident that this database will be a significant asset to achieving boardroom gender parity."
         >
         </content-slide>
       </section>
@@ -499,15 +516,39 @@
           title=""
           background="linear-gradient(#48a7a7, #9198e5)"
           class="wow fade-in-bottom"
-          image="./images/general/Transitions/7_BW.webp"
+          image="./images/general/Transitions/8_BW.webp"
         >
         </transition-slide>
         <content-slide
           title="Strategic Plan"
-          spiel="Strategic plan copy"
+          spiel="The Chicago Network unveiled its new strategic plan this year. We are grateful to KPMG and PwC for assisting us to develop and operationalize the plan. Also, we especially appreciate all those members who worked and collaborated with us during this important journey.<br><br>Our plan has three strategic pillars:"
           class="wow fade-in-bottom"
         >
-          <div class="WIFLPics" slot="outer"></div>
+          <div class="flexContainer">
+            <p-box
+              image="./images/strategicPlan/retain.svg"
+              alttext=""
+              text="<strong>Retain</strong> exclusivity, engagement, and high ROI for TCN members, while working purposefully toward having the diversity of the membership reflect the diversity of the professional women in the City;">
+            </p-box>
+            <p-box
+              image="./images/strategicPlan/serve.svg"
+              alttext=""
+              text="<strong>serve</strong> as the leading voice and convener to influence gender equity in leadership; and">
+            </p-box>
+            <p-box
+              image="./images/strategicPlan/engage.svg"
+              alttext=""
+              text="cultivate and <strong>engage</strong> the next generation of women leaders">
+            </p-box>
+          </div>
+
+          <p>The initiatives within each pillar include:</p>
+            <ol>
+              <li>Retain:  Women on Boards, Small Gatherings, and Affinity Groups;</li>
+              <li>Serve:  Women in the Forefront Luncheon and Equity Principles; and</li>
+              <li>Engage:  Launch Pad/ Next Generation and Early Identification of Leaders.</li>
+            </ol>
+          <p>The plan is a living document and as such, we will work with it, measure our progress, and adjust the KPIs, if appropriate.</p>
         </content-slide>
       </section>
 
@@ -516,7 +557,7 @@
           title=""
           background="linear-gradient(#48a7a7, #9198e5)"
           class="wow fade-in-bottom"
-          image="./images/general/Transitions/8_BW.webp"
+          image="./images/general/Transitions/9_BW.webp"
         >
         </transition-slide>
 

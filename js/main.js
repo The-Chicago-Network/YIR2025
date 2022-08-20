@@ -4,6 +4,7 @@ import "./components/contentslide.js";
 import "./components/card.js";
 import "./components/clippedvid.js"
 import "./components/event.js"
+import "./components/pBox.js"
 
 // Import helper functions
 import * as helper from "./helperFunctions.js";
