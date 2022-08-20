@@ -16,6 +16,7 @@ import * as data from "./data.js";
 helper.cardGenerator(data.logos, "#logoCards", "logoCard wow fade-in-bottom");
 helper.cardGenerator(data.AMImages, ".AMPics", "galleryPic wow fade-in-bottom");
 helper.cardGenerator(data.WIFLImages, ".WIFLPics", "galleryPic wow fade-in-bottom");
+helper.cardGenerator(data.eventPics, ".eventPics", "galleryPic wow fade-in-bottom");
 helper.eventGenerator(data.events, "#events", data.colors);
 
 // Initialize dynamic <clip-vid> attributes

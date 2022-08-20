@@ -516,6 +516,7 @@ nav {
 	 align-items: center;
 	 padding-right: 3rem;
 	 justify-self: flex-end;
+     font-family: var(--pFontFamily);
 }
  nav #navlinks a button {
 	 color: white;
