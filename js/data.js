@@ -78,14 +78,13 @@ export const events = [
 ];
 
 export const AMImages = [
-  { imgUrl: "/images/AnnualMeetingPictures/AM1.webp", imgAlt: "" },
-  { imgUrl: "/images/AnnualMeetingPictures/AM2.webp", imgAlt: "" },
-  { imgUrl: "/images/AnnualMeetingPictures/AM3.webp", imgAlt: "" },
-  { imgUrl: "/images/AnnualMeetingPictures/AM4.webp", imgAlt: "" },
-  { imgUrl: "/images/AnnualMeetingPictures/AM5.webp", imgAlt: "" },
-  { imgUrl: "/images/AnnualMeetingPictures/AM6.webp", imgAlt: "" },
+  { imgUrl: "./images/annualmeetingpictures/AM1.webp", imgAlt: "" },
+  { imgUrl: "./images/annualmeetingpictures/AM2.webp", imgAlt: "" },
+  { imgUrl: "./images/annualmeetingpictures/AM3.webp", imgAlt: "" },
+  { imgUrl: "./images/annualmeetingpictures/AM4.webp", imgAlt: "" },
+  { imgUrl: "./images/annualmeetingpictures/AM5.webp", imgAlt: "" },
+  { imgUrl: "./images/annualmeetingpictures/AM6.webp", imgAlt: "" },
 ];
-
 export const WIFLImages = [
   { imgUrl: "./images/wifl/WIFL1.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/WIFL2.webp", imgAlt: "" },
