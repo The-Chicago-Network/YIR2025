@@ -83,7 +83,7 @@ export const AMImages = [
   { imgUrl: "./images/annualmeetingpictures/AM3.webp", imgAlt: "" },
   { imgUrl: "./images/annualmeetingpictures/AM4.webp", imgAlt: "" },
   { imgUrl: "./images/annualmeetingpictures/AM5.webp", imgAlt: "" },
-  { imgUrl: "./images/annualmeetingpictures/AM6.webp", imgAlt: "" },
+  { imgUrl: "./images/annualmeetingpictures/AM6.webp", imgAlt: "" }
 ];
 export const WIFLImages = [
   { imgUrl: "./images/wifl/WIFL1.webp", imgAlt: "" },
