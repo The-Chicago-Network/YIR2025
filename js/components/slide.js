@@ -68,7 +68,7 @@ class Slide extends HTMLElement {
   render() {
    this.title ? this.$slide.querySelector('.innerSlide h2').innerHTML = this.title : null;
    this.background ? this.$slide.style.background = this.background : null;
-   this.image ? this.$slide.style.background = `url("${this.image}") no-repeat top center fixed` : null;
+   this.image ? this.$slide.style.background = `url("${this.image}") no-repeat top center` : null;
    this.image ? this.$slide.style.backgroundSize = `cover` : null;
   }
 }

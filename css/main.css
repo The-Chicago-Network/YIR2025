@@ -347,10 +347,21 @@ body {
     max-width: 80vw;
 }
 
+.eventPics {
+        width: 100vw;
+}
 
 .fade-in-bottom {
 	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.2s both;
 	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.2s both;
+}
+
+.fieldContainer {
+        width: 100vw;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
 }
 
 .flexContainer {
