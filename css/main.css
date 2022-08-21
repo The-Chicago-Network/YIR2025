@@ -334,6 +334,10 @@
     width: 70vw;
 }
 
+article {
+        overflow-x: hidden;
+}
+
 body {
         overflow-x: hidden;
 }
