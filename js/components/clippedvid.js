@@ -46,11 +46,11 @@ template.innerHTML = `
       height: 100vh;
     }
     .vidGroup {
-      clip-path: url("#cliptext");
+      clip-path: /*url("#cliptext");*/url("data:image/svg+xml,%3Csvg%3E%3CclipPath%20id%3D%22cliptext%22%3E%3Ctext%20x%3D%2250%25%22%20y%3D%22-75%25%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%20font-family%3D%22Literata%22%20font-weight%3D%22bold%22%20font-size%3D%2240vw%22%20%3E%202022%3C%2Ftext%3E%3C%2FclipPath%3E%3C%2Fsvg%3E");
     }
   </style>
 
-    <div class="clipVidContainer">
+    <div class="clipVidContainer"><!--
         <div class="clipSVG">
           <svg>
             <clipPath id="cliptext">
@@ -59,7 +59,7 @@ template.innerHTML = `
               </text>
             </clipPath>
           </svg>
-        </div>
+        </div> -->
         <div class="vidGroup">
             <div class="overlay"></div>
             <video id="background-video" autoplay loop muted poster="./images/vidposter.webp">
@@ -100,8 +100,8 @@ class clippedVid extends HTMLElement {
    this.$clippedVid.querySelector('source').src = this.vidurl;
    this.$clippedVid.querySelector('#background-video').poster = this.posterurl;
    this.$clippedVid.querySelector('.overlay').style.backgroundImage = `url(${this.overlayurl})`;
-   this.$clippedVid.querySelector(`text`).setAttribute('font-size', this.fontsize);
-   this.$clippedVid.querySelector(`text`).innerHTML = `${this.cliptext}`;
+   //this.$clippedVid.querySelector(`text`).setAttribute('font-size', this.fontsize);
+   //this.$clippedVid.querySelector(`text`).innerHTML = `${this.cliptext}`;
   }
 }
 

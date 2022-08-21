@@ -45,17 +45,13 @@
         </nav>
     <article>
       <section id="introduction">
-        <transition-slide background="white" class="fade-in-bottom">
-          <clip-vid
-            vidurl="./reencode.webm"
-            posterurl="./images/vidposter.webp"
-            overlayurl=""
-            cliptext="2022"
-            fontsize="40vw"
-            windowsize=""
-          >
-          </clip-vid>
-        </transition-slide>
+        <content-slide background="white" class="fade-in-bottom">
+          <div class="vidContainer" slot="outer">
+            <video id="background-video" preload="true" autoplay loop muted poster="./images/vidposter.webp">
+                  <source src="./2022_New.webm" type="video/mp4">
+            </video>
+          </div>
+        </content-slide>
         <content-slide
           title="Welcome from Denise Singleton & Linda Imonti"
           class="wow fade-in-bottom"
