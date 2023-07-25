@@ -1,8 +1,8 @@
-# The Chicago Network Year in Review 2022 / YIR2022
+# The Chicago Network Year in Review
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
- The Chicago Network's 2021-2022 Year in Review / Annual Report; forked from YIR2021 & refactored to use a shiny, new, and convenient library of web components. Features women-designed FLOSS typefaces [Literata](https://www.type-together.com/literata-font) and [PT Sans](https://www.paratype.ru/fonts/pt/pt-sans).
+ The Chicago Network's Year in Review / Annual Report. Features women-designed FLOSS typefaces [Literata](https://www.type-together.com/literata-font) and [PT Sans](https://www.paratype.ru/fonts/pt/pt-sans).
 
  ## About The Chicago Network
  The Chicago Network is an organization of Chicago’s most influential women leaders at the forefront of the city's business, professional, cultural, nonprofit and educational communities. Our purpose  is to empower women to lead. Our mission is to connect with each other for personal and professional growth, advance our civic, business & philanthropic communities, and inspire and support the next generation.
