@@ -42,39 +42,40 @@ export const EPCards = [
 
 // Event data for use by helper.eventGenerator()
 export const events = [
-  { title: "Annual Meeting" },
-  { title: "Arts & Culture and Nonprofit Sector Session" },
-  { title: "Corporate Sector Session" },
-  {
-    title:
-      "Everything You Wanted to Know About Buying and Selling Estate Jewelry",
-  },
-  { title: "Exploring the Truth about Financial Wellness with Terry Savage" },
-  { title: "Fall Dinner " },
-  { title: "Financial Services Sector Session" },
-  { title: "Frida Kahlo Exhibit Tour" },
-  { title: "Health, Science and Medicine Sector Session" },
-  { title: "Higher Education Sector Session" },
-  { title: "Holiday Reception Open House" },
-  { title: "Law and Government Sector Session " },
-  { title: "Lookingglass Theater | Her Honor Jane Byrne" },
-  { title: "Media and Communications Sector Session" },
-  { title: "New Member Breakfasts" },
-  { title: "New Year's Celebration Virtual Happy Hour" },
-  { title: "Panel Discussion: Why Does Board Service Matter to Me?" },
-  { title: "Pre-Spring Celebration at Lincoln Park Zoo" },
-  { title: "Private Dinners " },
-  {
-    title:
-      "Professional Services & Associations, Mid-size Private Companies Sector Session",
-  },
-  { title: "Timely Topics - Virtual Series" },
-  { title: "Walk Through the Botanic Gardens" },
-  {
-    title:
-      "What Parents Aren't Telling You: The Hidden Struggle of Work-life Balance ",
-  },
-  { title: "Women in the Forefront Luncheon" },
+  {  title: "Alzheimer's Disease in an Era of Treatment | Virtual Session" },
+  {  title: "An Evening at Cabaret ZaZou" },
+  {  title: "An Evening at the Chicago Symphony Orchestra" },
+  {  title: "Annual Meeting" },
+  {  title: "Arts & Culture and Nonprofit Sector Session" },
+  {  title: "Book Club" },
+  {  title: "Chicago Botanic Garden Lightscape" },
+  {  title: "Corporate Sector Session" },
+  {  title: "Emerita and Life Member Social Gathering & Lunch" },
+  {  title: "Emerita Sector Gathering - Virtual" },
+  {  title: "Ernest Shackleton Loves Me at Porchlight Theatre" },
+  {  title: "Explore the Shedd Aquarium with Bridget C. Coughlin" },
+  {  title: "Exploring the Stars with the Experts Through the James Webb Space Telescope" },
+  {  title: "Fall Dinner" },
+  {  title: "Financial Services Sector Session" },
+  {  title: "Health, Science and Medicine Sector Session" },
+  {  title: "Higher Education Sector Session" },
+  {  title: "HistoryMakers with Julieanna Richardson" },
+  {  title: "Holiday Reception Open House" },
+  {  title: "Launchpad for Women Senior Leaders" },
+  {  title: "Law and Government Sector Session" },
+  {  title: "Media and Communications Sector Session" },
+  {  title: "New Member Breakfast" },
+  {  title: "Private Dinners " },
+  {  title: "Professional Services & Associations, Mid-size Private Companies Sector Session" },
+  {  title: "Sharing and Support Virtual Session" },
+  {  title: "TCN New Member Breakfast" },
+  {  title: "TCN's New Year's Celebration at the Art Institute" },
+  {  title: "The Art of Watchmaking: Presented by Sandrine Donguy for Vacheron Constantin" },
+  {  title: "The Conservation Center Private Tour & Reception" },
+  {  title: "Villette at Lookingglass Theatre" },
+  {  title: "Women in the Forefront Luncheon" },
+  {  title: "Women on Boards" },
+  {  title: "Workforce Solutions for Attracting and Retaining Talent in Challenging Industries" }
 ];
 
 export const AMImages = [
