@@ -78,14 +78,6 @@ export const events = [
   {  title: "Workforce Solutions for Attracting and Retaining Talent in Challenging Industries" }
 ];
 
-export const AMImages = [
-  { imgUrl: "./images/annualmeetingpictures/AM1.webp", imgAlt: "" },
-  { imgUrl: "./images/annualmeetingpictures/AM2.webp", imgAlt: "" },
-  { imgUrl: "./images/annualmeetingpictures/AM3.webp", imgAlt: "" },
-  { imgUrl: "./images/annualmeetingpictures/AM4.webp", imgAlt: "" },
-  { imgUrl: "./images/annualmeetingpictures/AM5.webp", imgAlt: "" },
-  { imgUrl: "./images/annualmeetingpictures/AM6.webp", imgAlt: "" }
-];
 export const WIFLImages = [
   { imgUrl: "./images/wifl/WIFL1.jpg", imgAlt: "" },
   { imgUrl: "./images/wifl/WIFL2.jpg", imgAlt: "" },
@@ -108,6 +100,30 @@ export const WIFLImages = [
   { imgUrl: "./images/wifl/WIFL19.jpg", imgAlt: "" },
   { imgUrl: "./images/wifl/WIFL20.jpg", imgAlt: "" },
   { imgUrl: "./images/wifl/WIFL21.jpg", imgAlt: "" },
+];
+
+export const LPImages = [
+  { imgUrl: "./images/launchpad/LP1.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP2.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP3.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP4.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP5.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP6.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP7.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP8.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP9.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP10.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP11.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP12.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP13.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP14.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP15.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP16.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP17.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP18.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP19.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP20.jpg", imgAlt: "" },
+  { imgUrl: "./images/launchpad/LP21.jpg", imgAlt: "" },
 ];
 
 export const eventPics = [
