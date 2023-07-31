@@ -1,5 +1,6 @@
 // Import components
 import "./components/slide.js";
+import "./components/slide-no-header.js";
 import "./components/contentslide.js";
 import "./components/card.js";
 import "./components/clippedvid.js"
@@ -14,8 +15,8 @@ import * as data from "./data.js";
 
 // Generate card & event elements
 helper.cardGenerator(data.logos, "#logoCards", "logoCard wow fade-in-bottom");
-helper.cardGenerator(data.AMImages, ".AMPics", "galleryPic wow fade-in-bottom");
 helper.cardGenerator(data.WIFLImages, ".WIFLPics", "galleryPic wow fade-in-bottom");
+helper.cardGenerator(data.LPImages, ".launchpadPics", "galleryPic wow fade-in-bottom");
 helper.cardGenerator(data.eventPics, ".eventPics", "galleryPic wow fade-in-bottom");
 helper.eventGenerator(data.events, "#events", data.colors);
 
