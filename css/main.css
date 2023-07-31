@@ -454,12 +454,24 @@ h1 {
 }
 
 h1 span {
-        font-size: 20rem;
+        font-size: 30vh;
 }
 
 .imageHolder {
     display: inline-block;
     width: 70vw;
+}
+
+.titleContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+}
+
+.titleSVG {
+        width: 70vw;
 }
 
 article {

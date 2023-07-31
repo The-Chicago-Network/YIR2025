@@ -1,5 +1,6 @@
 // Import components
 import "./components/slide.js";
+import "./components/slide-no-header.js";
 import "./components/contentslide.js";
 import "./components/card.js";
 import "./components/clippedvid.js"

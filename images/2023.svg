@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="216.24117mm"
+   height="112.79118mm"
+   viewBox="0 0 216.24117 112.79119"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath816">
+      <rect
+         style="fill:#ffffff;fill-opacity:0.848211;stroke:#ffffff;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect816"
+         width="508"
+         height="287.45642"
+         x="0"
+         y="0.57786244" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1"
+     style="display:inline"
+     transform="translate(-145.58824,-85.023522)">
+    <g
+       id="g3"
+       transform="matrix(1.766584,0,0,1.766584,68.217505,-9.0434019)"
+       style="fill:#ffffff;fill-opacity:0.848211">
+      <text
+         xml:space="preserve"
+         style="font-stretch:expanded;font-size:42.4443px;line-height:0.9;font-family:'D-DIN Exp';-inkscape-font-specification:'D-DIN Exp Expanded';letter-spacing:1.33004px;fill:#ffffff;fill-opacity:0.848211;stroke-width:1.58952;paint-order:markers fill stroke"
+         x="71.606934"
+         y="61.253902"
+         id="text1"><tspan
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.67173px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:1.33004px;fill:#ffffff;fill-opacity:0.848211;stroke-width:1.58952"
+           x="71.606934"
+           y="61.253902">THE CHICAGO NETWORK</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-stretch:expanded;font-size:42.4443px;line-height:0.9;font-family:'D-DIN Exp';-inkscape-font-specification:'D-DIN Exp Expanded';letter-spacing:1.33004px;fill:#ffffff;fill-opacity:0.848211;stroke-width:1.58952;paint-order:markers fill stroke"
+         x="82.416855"
+         y="113.39925"
+         id="text2"><tspan
+           id="tspan2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.67173px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:1.33004px;fill:#ffffff;fill-opacity:0.848211;stroke-width:1.58952"
+           x="82.416855"
+           y="113.39925">YEAR IN REVIEW</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.5033px;line-height:0.9;font-family:'Broadsheet LDO';-inkscape-font-specification:'Broadsheet LDO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#ffffff;fill-opacity:0.848211;stroke-width:25.1503;paint-order:markers fill stroke"
+       x="152.17821"
+       y="168.77527"
+       id="text3"><tspan
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:84.5033px;font-family:'Broadsheet LDO';-inkscape-font-specification:'Broadsheet LDO, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#ffffff;fill-opacity:0.848211;stroke-width:25.1503"
+         x="152.17821"
+         y="168.77527">2023</tspan></text>
+  </g>
+</svg>

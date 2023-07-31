@@ -1,0 +1,2037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><meta:creation-date>2023-07-30T19:07:10.621364243</meta:creation-date><dc:date>2023-07-30T19:39:21.784405027</dc:date><meta:editing-duration>PT32M4S</meta:editing-duration><meta:editing-cycles>3</meta:editing-cycles><meta:generator>LibreOffice/7.5.5.2$Linux_X86_64 LibreOffice_project/50$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="422" meta:object-count="0"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">8248</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">99794</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="Sheet1">
+       <config:config-item config:name="CursorPositionX" config:type="int">4</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">18</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">140</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+       <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+       <config:config-item config:name="LegacySingleLineFontwork" config:type="boolean">false</config:config-item>
+       <config:config-item config:name="ConnectorUseSnapRect" config:type="boolean">false</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">Sheet1</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1259</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">140</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="FormulaBarHeight" config:type="short">1</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsValueHighlightingEnabled" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="LegacySingleLineFontwork" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ConnectorUseSnapRect" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ImagePreferredDPI" config:type="int">0</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string">Xerox-Phaser-3260</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">/AH+/1hlcm94LVBoYXNlci0zMjYwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpYZXJveC1QaGFzZXItMzI2MAAAAAAAAAAAAAAWAAMA1wAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9WGVyb3gtUGhhc2VyLTMyNjAKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5hZGp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXh0RGF0YQpJbnB1dFNsb3Q6VHJheTEARHVwbGV4Ok5vbmUAUGFnZVNpemU6TGV0dGVyAAASAENPTVBBVF9EVVBMRVhfTU9ERQ8ARHVwbGV4TW9kZTo6T2ZmDABQUklOVEVSX05BTUURAFhlcm94LVBoYXNlci0zMjYwCwBEUklWRVJfTkFNRRYAQ1VQUzpYZXJveC1QaGFzZXItMzI2MA==</config:config-item>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SyntaxStringRef" config:type="short">3</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item-map-named config:name="ScriptConfiguration">
+    <config:config-item-map-entry config:name="Sheet1">
+     <config:config-item config:name="CodeName" config:type="string">Sheet1</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-named>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="D-DIN" svg:font-family="D-DIN" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="F" svg:font-family="" style:font-family-generic="roman"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Noto Sans Devanagari" svg:font-family="&apos;Noto Sans Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Source Han Sans CN" svg:font-family="&apos;Source Han Sans CN&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="0.5in"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="en" fo:country="US" style:font-name-asian="Source Han Sans CN" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans Devanagari" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <style:style style:name="Default" style:family="table-cell"/>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#000000" fo:font-size="24pt" fo:font-style="normal" fo:font-weight="bold" style:font-size-asian="24pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="24pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Heading_20_1" style:display-name="Heading 1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:text-properties fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+  </style:style>
+  <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="table-cell" style:parent-style-name="Heading">
+   <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="Text" style:family="table-cell" style:parent-style-name="Default"/>
+  <style:style style:name="Note" style:family="table-cell" style:parent-style-name="Text">
+   <style:table-cell-properties fo:background-color="#ffffcc" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" fo:border="0.74pt solid #808080"/>
+   <style:text-properties fo:color="#333333"/>
+  </style:style>
+  <style:style style:name="Footnote" style:family="table-cell" style:parent-style-name="Text">
+   <style:text-properties fo:color="#808080" fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Hyperlink" style:family="table-cell" style:parent-style-name="Text">
+   <style:text-properties fo:color="#0000ee" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="#0000ee"/>
+  </style:style>
+  <style:style style:name="Status" style:family="table-cell" style:parent-style-name="Default"/>
+  <style:style style:name="Good" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ccffcc"/>
+   <style:text-properties fo:color="#006600"/>
+  </style:style>
+  <style:style style:name="Neutral" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ffffcc"/>
+   <style:text-properties fo:color="#996600"/>
+  </style:style>
+  <style:style style:name="Bad" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#ffcccc"/>
+   <style:text-properties fo:color="#cc0000"/>
+  </style:style>
+  <style:style style:name="Warning" style:family="table-cell" style:parent-style-name="Status">
+   <style:text-properties fo:color="#cc0000"/>
+  </style:style>
+  <style:style style:name="Error" style:family="table-cell" style:parent-style-name="Status">
+   <style:table-cell-properties fo:background-color="#cc0000"/>
+   <style:text-properties fo:color="#ffffff" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Accent" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Accent_20_1" style:display-name="Accent 1" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#000000"/>
+   <style:text-properties fo:color="#ffffff"/>
+  </style:style>
+  <style:style style:name="Accent_20_2" style:display-name="Accent 2" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#808080"/>
+   <style:text-properties fo:color="#ffffff"/>
+  </style:style>
+  <style:style style:name="Accent_20_3" style:display-name="Accent 3" style:family="table-cell" style:parent-style-name="Accent">
+   <style:table-cell-properties fo:background-color="#dddddd"/>
+  </style:style>
+  <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.3583in"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="0.889in"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.178in" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <number:number-style style:name="N2">
+   <number:number number:decimal-places="2" number:min-decimal-places="2" number:min-integer-digits="1"/>
+  </number:number-style>
+  <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="10pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="D-DIN" style:font-size-complex="10pt" style:language-complex="ar" style:country-complex="SA" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="10pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="D-DIN" style:font-size-complex="10pt" style:language-complex="ar" style:country-complex="SA" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" style:text-underline-style="none" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="10pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-name-complex="D-DIN" style:font-size-complex="10pt" style:language-complex="ar" style:country-complex="SA" style:font-style-complex="normal" style:font-weight-complex="bold" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce12" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" style:text-underline-style="none" fo:font-weight="bold" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce14" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0in"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce15" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="D-DIN" fo:font-size="10.5pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="F" style:font-size-asian="12pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="D-DIN" style:font-size-complex="10.5pt" style:language-complex="ar" style:country-complex="SA" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-bottom="0.0984in" fo:border="1.5pt solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.2953in" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0.0984in" fo:border="1.5pt solid #000000" fo:padding="0.0071in" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:footer-style>
+  </style:page-layout>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties fo:color="#ff0000" style:font-name="D-DIN" fo:font-size="10.5pt" fo:language="en" fo:country="US" style:language-asian="en" style:country-asian="US" style:language-complex="ar" style:country-complex="SA" style:font-name-complex="D-DIN" style:font-size-asian="12pt" style:font-size-complex="10.5pt"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header>
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:header-first style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+   <style:footer-first style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="Report" style:page-layout-name="pm2">
+   <style:header>
+    <style:region-left>
+     <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
+    </style:region-left>
+    <style:region-right>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2023-07-30">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="19:23:06.456730852">00:00:00</text:time></text:p>
+    </style:region-right>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:header-first style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number><text:s/>/ <text:page-count>99</text:page-count></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+   <style:footer-first style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:calculation-settings table:automatic-find-labels="false" table:use-regular-expressions="false" table:use-wildcards="true"/>
+   <table:table table:name="Sheet1" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="ce10"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
+      <text:p>Executive Committee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A1] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Executive Committee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Executive Committee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Linda Imonti, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A2] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Linda Imonti, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Linda Imonti, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Suzet McKinney, Vice Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A3] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Suzet McKinney, Vice Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Suzet McKinney, Vice Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Denise Singleton, Immediate Past Chair/Nominating Committee Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A4] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Denise Singleton, Immediate Past Chair/Nominating Committee Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Denise Singleton, Immediate Past Chair/Nominating Committee Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Deb Boyda, Treasurer</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A5] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Deb Boyda, Treasurer&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Deb Boyda, Treasurer&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Cary Grace</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A6] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Cary Grace&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Cary Grace&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
+      <text:p>Finance and Audit Committee </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A8] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Finance and Audit Committee &lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Finance and Audit Committee &lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Deb Boyda, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A9] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Deb Boyda, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Deb Boyda, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Tracey Benford</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A10] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Tracey Benford&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Tracey Benford&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Sidney Dillard</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A11] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Sidney Dillard&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Sidney Dillard&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Linda Imonti</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A12] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Linda Imonti&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Linda Imonti&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Roxanne Martino</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A13] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Roxanne Martino&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Roxanne Martino&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
+      <text:p>Governance Committee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A15] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Governance Committee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Governance Committee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Marsha Cruzan, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A16] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Marsha Cruzan, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Marsha Cruzan, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Christina Corley</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A17] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Christina Corley&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Christina Corley&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Patricia Holmes</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A18] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Patricia Holmes&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Patricia Holmes&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Grace Hou</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A19] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Grace Hou&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Grace Hou&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce1" office:value-type="string" calcext:value-type="string">
+      <text:p>Membership Committee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A21] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Membership Committee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Membership Committee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Janet Foutty, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A22] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Janet Foutty, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Janet Foutty, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Jean Franczyk, Chair, Arts &amp; Culture Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A23] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Jean Franczyk, Chair, Arts &amp; Culture Subcommittee&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Jean Franczyk, Chair, Arts &amp; Culture Subcommittee&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Kathleen Carroll, Chair, Corporate Subcommittee </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A24] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Kathleen Carroll, Chair, Corporate Subcommittee &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Kathleen Carroll, Chair, Corporate Subcommittee &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Mary Josephs, Chair, Financial Services Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A25] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Mary Josephs, Chair, Financial Services Subcommittee&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Mary Josephs, Chair, Financial Services Subcommittee&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Z. Scott, Chair, Government Subcommittee </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A26] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Z. Scott, Chair, Government Subcommittee &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Z. Scott, Chair, Government Subcommittee &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Verneda Bachus, Chair, Health, Science &amp; Medicine Subcommittee </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A27] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Verneda Bachus, Chair, Health, Science &amp; Medicine Subcommittee &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Verneda Bachus, Chair, Health, Science &amp; Medicine Subcommittee &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Susan Poser, Chair, Higher Education Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A28] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Susan Poser, Chair, Higher Education Subcommittee&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Susan Poser, Chair, Higher Education Subcommittee&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Cathy Birkeland, Chair, Law Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A29] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Cathy Birkeland, Chair, Law Subcommittee&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Cathy Birkeland, Chair, Law Subcommittee&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Alison Scholly, Chair, Media &amp; Communications Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A30] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Alison Scholly, Chair, Media &amp; Communications Subcommittee&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Alison Scholly, Chair, Media &amp; Communications Subcommittee&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Erin Inman, Chair, Mid-Size Private Companies Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A31] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Erin Inman, Chair, Mid-Size Private Companies Subcommittee&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Erin Inman, Chair, Mid-Size Private Companies Subcommittee&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Jane Mentzinger, Chair, Nonprofit Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A32] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Jane Mentzinger, Chair, Nonprofit Subcommittee&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Jane Mentzinger, Chair, Nonprofit Subcommittee&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Jackie Koo, Chair, Professional Services &amp; Associations Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A33] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Jackie Koo, Chair, Professional Services &amp; Associations Subcommittee&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Jackie Koo, Chair, Professional Services &amp; Associations Subcommittee&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Communications Committee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A35] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Communications Committee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Communications Committee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Susan Jacobs, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A36] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Susan Jacobs, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Susan Jacobs, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Gayla Brockman </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A37] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Gayla Brockman &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Gayla Brockman &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Kathleen Carroll </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A38] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Kathleen Carroll &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Kathleen Carroll &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Yvonne Franzese </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A39] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Yvonne Franzese &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Yvonne Franzese &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Kary McIlwain</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A40] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Kary McIlwain&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Kary McIlwain&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Lindsey Jenkins</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A41] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Lindsey Jenkins&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Lindsey Jenkins&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Diane Pearse</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A42] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Diane Pearse&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Diane Pearse&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Aurelie Richard </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A43] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Aurelie Richard &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Aurelie Richard &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Michelle Russell</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A44] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Michelle Russell&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Michelle Russell&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Maxine Winer</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A45] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Maxine Winer&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Maxine Winer&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Emerita Committee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A47] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Emerita Committee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Emerita Committee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Libbet Richter, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A48] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Libbet Richter, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Libbet Richter, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Anna Rappaport</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A49] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Anna Rappaport&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Anna Rappaport&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Barbara Provus</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A50] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Barbara Provus&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Barbara Provus&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Toni Smith</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A51] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Toni Smith&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Toni Smith&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>Launchpad Committee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A53] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Launchpad Committee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Launchpad Committee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Yonhee Gordon, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A54] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Yonhee Gordon, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Yonhee Gordon, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Shan Bhati</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A55] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Shan Bhati&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Shan Bhati&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Aarti Dhupelia </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A56] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Aarti Dhupelia &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Aarti Dhupelia &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Francesca Cornelli</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A57] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Francesca Cornelli&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Francesca Cornelli&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Karyn Esken </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A58] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Karyn Esken &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Karyn Esken &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Teresa Harmon </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A59] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Teresa Harmon &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Teresa Harmon &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Laurie Joyner </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A60] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Laurie Joyner &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Laurie Joyner &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Beka Kohmescher</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A61] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Beka Kohmescher&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Beka Kohmescher&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Tracie Morris</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A62] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Tracie Morris&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Tracie Morris&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Anna Paglia </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A63] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Anna Paglia &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Anna Paglia &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Maria Pesqueira</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A64] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Maria Pesqueira&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Maria Pesqueira&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Aurelie Richard</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A65] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Aurelie Richard&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Aurelie Richard&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Heather Russell</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A66] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Heather Russell&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Heather Russell&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Kathy Scherer</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A67] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Kathy Scherer&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Kathy Scherer&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Kim Taylor </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A68] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Kim Taylor &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Kim Taylor &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Programs &amp; Engagement Committee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A70] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Programs &amp; Engagement Committee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Programs &amp; Engagement Committee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Cathy Kenworthy, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A71] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Cathy Kenworthy, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Cathy Kenworthy, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Barbra Bukovac</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A72] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Barbra Bukovac&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Barbra Bukovac&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Linda Coberly</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A73] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Linda Coberly&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Linda Coberly&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Elizabeth Coolidge</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A74] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Elizabeth Coolidge&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Elizabeth Coolidge&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Angelique David</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A75] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Angelique David&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Angelique David&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string"><text:p>Opella Ernest<text:span text:style-name="T1"> </text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A76] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Opella Ernest &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Opella Ernest &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Sarah Guernsey</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A77] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Sarah Guernsey&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Sarah Guernsey&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Erin Inman</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A78] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Erin Inman&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Erin Inman&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Pamela Forbes Lieberman</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A79] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Pamela Forbes Lieberman&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Pamela Forbes Lieberman&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Katie Lawler</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A80] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Katie Lawler&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Katie Lawler&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Susan Stelter</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A81] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Susan Stelter&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Susan Stelter&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Anna Valencia</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A82] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Anna Valencia&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Anna Valencia&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Women in the Forefront Luncheon Committee </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A84] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Women in the Forefront Luncheon Committee &lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Women in the Forefront Luncheon Committee &lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Francesca DeBiase, Co-Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A85] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Francesca DeBiase, Co-Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Francesca DeBiase, Co-Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Julie Scott, Co-Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A86] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Julie Scott, Co-Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Julie Scott, Co-Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Sue Bettman <text:s text:c="3"/></text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A87] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Sue Bettman    &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Sue Bettman <text:s text:c="3"/>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Kimberly Chainey</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A88] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Kimberly Chainey&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Kimberly Chainey&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Paulita Pike </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A89] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Paulita Pike &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Paulita Pike &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Jill Smart</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A90] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Jill Smart&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Jill Smart&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Karen Teitelbaum </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A91] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Karen Teitelbaum &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Karen Teitelbaum &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Joyce St. Clair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A92] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Joyce St. Clair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Joyce St. Clair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Yasmine Winkler</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A93] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Yasmine Winkler&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Yasmine Winkler&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce14"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Women on Boards Committee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A95] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Women on Boards Committee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Women on Boards Committee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Sara Greenstein, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A96] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Sara Greenstein, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Sara Greenstein, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Deb Boyda</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A97] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Deb Boyda&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Deb Boyda&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
+      <text:p>Margo Cook</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A98] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Margo Cook&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Margo Cook&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Katie Doyle</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A99] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Katie Doyle&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Katie Doyle&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Chris Edwards</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A100] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Chris Edwards&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Chris Edwards&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Suzanne Burns </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A101] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Suzanne Burns &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Suzanne Burns &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Alison Ranney</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A102] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Alison Ranney&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Alison Ranney&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Blythe McGarvie </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A103] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Blythe McGarvie &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Blythe McGarvie &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Tierney Remick </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A104] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Tierney Remick &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Tierney Remick &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Denise Singleton</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A105] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Denise Singleton&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Denise Singleton&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Anna May Trala </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A106] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Anna May Trala &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Anna May Trala &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Yasmine Winkler</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A107] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Yasmine Winkler&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Yasmine Winkler&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Mary Josephs</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A108] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Mary Josephs&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Mary Josephs&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Ann Ziegler</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A109] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Ann Ziegler&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Ann Ziegler&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Arts &amp; Culture Membership Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A111] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Arts &amp; Culture Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Arts &amp; Culture Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Jean Franczyk, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A112] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Jean Franczyk, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Jean Franczyk, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Susan Abrams</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A113] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Susan Abrams&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Susan Abrams&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Megan Ross</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A114] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Megan Ross&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Megan Ross&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Sarah Guernsey</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A115] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Sarah Guernsey&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Sarah Guernsey&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Perri Imer</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A116] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Perri Imer&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Perri Imer&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Laura Sadler</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A117] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Laura Sadler&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Laura Sadler&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Corporate Membership Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A119] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Corporate Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Corporate Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Yasmine Winkler</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A120] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Yasmine Winkler&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Yasmine Winkler&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Therese Fauerbach</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A121] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Therese Fauerbach&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Therese Fauerbach&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Laura Gurski</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A122] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Laura Gurski&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Laura Gurski&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Kathleen Carroll </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A123] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Kathleen Carroll &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Kathleen Carroll &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Beth Kirk Malecki</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A124] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Beth Kirk Malecki&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Beth Kirk Malecki&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Laurie O’Shea</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A125] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Laurie O’Shea&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Laurie O’Shea&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Terri McNally </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A126] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Terri McNally &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Terri McNally &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Financial Services Membership Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A128] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Financial Services Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Financial Services Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Mary Josephs, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A129] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Mary Josephs, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Mary Josephs, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Tracey Benford</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A130] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Tracey Benford&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Tracey Benford&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Sidney Dillard</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A131] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Sidney Dillard&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Sidney Dillard&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Anna May Trala</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A132] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Anna May Trala&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Anna May Trala&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Beth Karlson</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A133] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Beth Karlson&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Beth Karlson&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Julie Vander Weele </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A134] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Julie Vander Weele &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Julie Vander Weele &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Beka Kohmescher </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A135] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Beka Kohmescher &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Beka Kohmescher &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Roxanne Martino</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A136] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Roxanne Martino&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Roxanne Martino&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Joyce St. Clair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A137] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Joyce St. Clair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Joyce St. Clair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Joanna Welsh </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A138] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Joanna Welsh &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Joanna Welsh &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Patrice DeCorrevont</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A139] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Patrice DeCorrevont&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Patrice DeCorrevont&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Government Membership Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A141] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Government Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Government Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Z. Scott, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A142] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Z. Scott, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Z. Scott, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Melissa Bean</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A143] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Melissa Bean&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Melissa Bean&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Kim Foxx </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A144] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Kim Foxx &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Kim Foxx &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Janice Jackson</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A145] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Janice Jackson&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Janice Jackson&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Robin Kelly</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A146] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Robin Kelly&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Robin Kelly&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Juliana Stratton</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A147] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Juliana Stratton&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Juliana Stratton&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Health, Science &amp; Medicine Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A149] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Health, Science &amp; Medicine Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Health, Science &amp; Medicine Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Verneda Bachus, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A150] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Verneda Bachus, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Verneda Bachus, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Jan Berger</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A151] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Jan Berger&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Jan Berger&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Deborah Bowen</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A152] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Deborah Bowen&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Deborah Bowen&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Lisa Johnson</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A153] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Lisa Johnson&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Lisa Johnson&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Cheryl Lulias</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A154] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Cheryl Lulias&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Cheryl Lulias&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Michelle Stephenson</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A155] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Michelle Stephenson&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Michelle Stephenson&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Dana Thompson</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A156] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Dana Thompson&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Dana Thompson&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Brenda Wolf </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A157] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Brenda Wolf &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Brenda Wolf &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Kathleen Yosko</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A158] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Kathleen Yosko&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Kathleen Yosko&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Higher Education Membership Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A160] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Higher Education Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Higher Education Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Susan Poser, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A161] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Susan Poser, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Susan Poser, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Donna Carroll</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A162] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Donna Carroll&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Donna Carroll&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Beth Harris</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A163] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Beth Harris&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Beth Harris&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Elaine Maimon</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A164] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Elaine Maimon&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Elaine Maimon&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Stephanie Marshall</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A165] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Stephanie Marshall&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Stephanie Marshall&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Marilyn McCoy</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A166] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Marilyn McCoy&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Marilyn McCoy&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Jennifer Rosato Perea</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A167] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Jennifer Rosato Perea&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Jennifer Rosato Perea&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Rebecca Rugg</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A168] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Rebecca Rugg&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Rebecca Rugg&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Elissa Tenny</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A169] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Elissa Tenny&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Elissa Tenny&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Law Membership Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A171] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Law Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Law Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Cathy Birkeland, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A172] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Cathy Birkeland, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Cathy Birkeland, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Rebecca Bacon</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A173] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Rebecca Bacon&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Rebecca Bacon&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Christine Edwards</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A174] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Christine Edwards&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Christine Edwards&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Mary Ann Hynes</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A175] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Mary Ann Hynes&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Mary Ann Hynes&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Devi Koya</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A176] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Devi Koya&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Devi Koya&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Joan Lefkow</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A177] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Joan Lefkow&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Joan Lefkow&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Terri Mascherin</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A178] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Terri Mascherin&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Terri Mascherin&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Maura Ann McBreen</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A179] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Maura Ann McBreen&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Maura Ann McBreen&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Mary Meg McCarthy</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A180] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Mary Meg McCarthy&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Mary Meg McCarthy&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Media &amp; Communications Membership Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A182] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Media &amp; Communications Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Media &amp; Communications Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Alison Scholly, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A183] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Alison Scholly, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Alison Scholly, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Karyn Esken</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A184] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Karyn Esken&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Karyn Esken&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>E.T. Franklin</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A185] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="E.T. Franklin&lt;br /&gt;" calcext:value-type="string">
+      <text:p>E.T. Franklin&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Cari Bucci-Hulings </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A186] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Cari Bucci-Hulings &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Cari Bucci-Hulings &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Susan Jacobs</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A187] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Susan Jacobs&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Susan Jacobs&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Renetta McCann</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A188] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Renetta McCann&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Renetta McCann&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Sandra Micek</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A189] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Sandra Micek&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Sandra Micek&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Maxine Winer</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A190] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Maxine Winer&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Maxine Winer&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Mid-Size Private Companies Membership Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A192] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Mid-Size Private Companies Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Mid-Size Private Companies Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Erin Iman, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A193] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Erin Iman, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Erin Iman, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Caroline Becker Joss</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A194] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Caroline Becker Joss&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Caroline Becker Joss&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Rona Borre</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A195] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Rona Borre&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Rona Borre&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Eileen Chin</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A196] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Eileen Chin&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Eileen Chin&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Alison Gutterman</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A197] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Alison Gutterman&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Alison Gutterman&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Stephanie Hickman</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A198] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Stephanie Hickman&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Stephanie Hickman&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Cheryl Lulias</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A199] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Cheryl Lulias&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Cheryl Lulias&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Laura Neiman</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A200] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Laura Neiman&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Laura Neiman&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Ellen Rudnick</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A201] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Ellen Rudnick&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Ellen Rudnick&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Julie Scott</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A202] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Julie Scott&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Julie Scott&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Donna Williamson</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A203] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Donna Williamson&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Donna Williamson&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Nonprofit Membership Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A205] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Nonprofit Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Nonprofit Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Jane Mentzinger, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A206] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Jane Mentzinger, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Jane Mentzinger, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Heather Anichini</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A207] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Heather Anichini&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Heather Anichini&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>MarySue Barrett</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A208] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="MarySue Barrett&lt;br /&gt;" calcext:value-type="string">
+      <text:p>MarySue Barrett&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Gillian Darlow</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A209] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Gillian Darlow&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Gillian Darlow&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Sol Flores </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A210] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Sol Flores &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Sol Flores &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Alison Ranney</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A211] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Alison Ranney&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Alison Ranney&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Celena Roldan </text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A212] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Celena Roldan &lt;br /&gt;" calcext:value-type="string">
+      <text:p>Celena Roldan &lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Rebekah Scheinfeld</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A213] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Rebekah Scheinfeld&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Rebekah Scheinfeld&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Brooke Wiseman</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A214] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Brooke Wiseman&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Brooke Wiseman&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce11" office:value-type="string" calcext:value-type="string">
+      <text:p>Professional Services &amp; Associations Membership Subcommittee</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=&quot;&lt;strong&gt;&quot; &amp; [.A216] &amp; &quot;&lt;/strong&gt;&quot; &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="&lt;strong&gt;Professional Services &amp; Associations Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;" calcext:value-type="string">
+      <text:p>&lt;strong&gt;Professional Services &amp; Associations Membership Subcommittee&lt;/strong&gt;&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Jackie Koo, Chair</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A217] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Jackie Koo, Chair&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Jackie Koo, Chair&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Gina Berndt</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A218] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Gina Berndt&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Gina Berndt&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Donni Case</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A219] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Donni Case&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Donni Case&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Kathy Scherer</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A220] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Kathy Scherer&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Kathy Scherer&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
+      <text:p>Jill Smart</text:p>
+     </table:table-cell>
+     <table:table-cell table:formula="of:=[.A221] &amp; &quot;&lt;br /&gt;&quot;" office:value-type="string" office:string-value="Jill Smart&lt;br /&gt;" calcext:value-type="string">
+      <text:p>Jill Smart&lt;br /&gt;</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="1048354">
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:number-columns-repeated="2"/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions/>
+  </office:spreadsheet>
+ </office:body>
+</office:document>
