@@ -126,6 +126,25 @@ export const LPImages = [
   { imgUrl: "./images/launchpad/LP21.jpg", imgAlt: "" },
 ];
 
+export const annualMeetingImages = [
+  { imgUrl: "./images/annualmeeting/1.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/2.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/3.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/4.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/5.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/6.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/7.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/8.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/9.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/10.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/11.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/12.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/13.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/14.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/15.jpg", imgAlt: "" },
+  { imgUrl: "./images/annualmeeting/16.jpg", imgAlt: "" }
+];
+
 export const eventPics = [
   { imgUrl: "./images/Events/1.jpg", imgAlt: "" },
   { imgUrl: "./images/Events/2.jpg", imgAlt: "" },
@@ -139,7 +158,13 @@ export const eventPics = [
   { imgUrl: "./images/Events/10.jpg", imgAlt: "" },
   { imgUrl: "./images/Events/11.jpg", imgAlt: "" },
   { imgUrl: "./images/Events/12.jpg", imgAlt: "" },
-  { imgUrl: "./images/Events/13.jpg", imgAlt: "" }
+  { imgUrl: "./images/Events/13.jpg", imgAlt: "" },
+  { imgUrl: "./images/Events/14.jpg", imgAlt: "" },
+  { imgUrl: "./images/Events/15.jpg", imgAlt: "" },
+  { imgUrl: "./images/Events/16.jpg", imgAlt: "" },
+  { imgUrl: "./images/Events/17.jpg", imgAlt: "" },
+  { imgUrl: "./images/Events/18.jpg", imgAlt: "" },
+  { imgUrl: "./images/Events/19.jpg", imgAlt: "" }
 ];
 
 export const logos = [

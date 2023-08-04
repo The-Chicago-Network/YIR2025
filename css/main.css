@@ -457,6 +457,19 @@ h1 span {
         font-size: 30vh;
 }
 
+
+.lplogo {
+        max-width: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.lplogocontainer {
+        display: flex;
+        align-items: center;
+        padding: 2rem 0 2rem 0;
+}
+
 .imageHolder {
     display: inline-block;
     width: 70vw;
@@ -650,7 +663,7 @@ h2 {
 }
 
 nav {
-	 height: 4rem;
+	 height: 5rem;
 	 width: 100vw;
 	 background-color: #48a7a7;
 	 display: flex;
