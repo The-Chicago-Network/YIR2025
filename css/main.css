@@ -759,6 +759,12 @@ p {
     flex-flow: row nowrap;
 }
 
+@media screen and (max-width: 600px) {
+        .siggies {
+               flex-flow: row wrap;
+        }
+}
+
 .signatureContainer {
     margin-right: 5rem;
 }
