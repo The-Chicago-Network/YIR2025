@@ -1,21 +1,22 @@
- const template = document.createElement('template');
+const template = document.createElement("template");
 
 template.innerHTML = `
   <style>
     h3 {
-      font-family: var(--hhhFontFamily);
+      font-family: "Coconat Regular";
       font-size: var(--hhhFontSize);
       font-variation-settings: var(--hhhVariationSettings);
-      margin-bottom: 10rem;
-      background: linear-gradient(to right, #48a7a7, #4885aa);
+      margin-bottom: 3rem;
+      position: relative;
+      background: var(--h3-background);
       -webkit-text-fill-color: transparent;
       -webkit-background-clip: text;
-      line-height: 7rem;
+      z-index: 10;
     }
 
     .innerSlide {
       margin: 0 auto 0 auto;
-      width: 70vw;
+      max-width: 40em;
       padding-left: 5vw;
       padding-right: 5vw;
     }
@@ -29,14 +30,13 @@ template.innerHTML = `
 
     @media all and (max-width: 1000px) {
         h3 {
-          font-family: var(--hhhFontFamily);
+          font-family: "Coconat Regular";
           font-size: 2.5rem;
           font-variation-settings: var(--hhhVariationSettings);
           margin-bottom: 4rem;
-          background: linear-gradient(to right, #48a7a7, #4885aa);
+          background: var(--h3-background);
           -webkit-text-fill-color: transparent;
           -webkit-background-clip: text;
-          line-height: 4rem;
         }
         p {
           font-family: var(--pFontFamily);
@@ -74,15 +74,15 @@ class contentSlide extends HTMLElement {
     super();
 
     // Set up shadow root to isolate instance
-    this._shadowRoot = this.attachShadow({ mode: 'open' });
+    this._shadowRoot = this.attachShadow({ mode: "open" });
     this._shadowRoot.appendChild(template.content.cloneNode(true));
 
-    this.$slide = this._shadowRoot.querySelector('.slideContainer');
+    this.$slide = this._shadowRoot.querySelector(".slideContainer");
   }
 
   // Get attributes passed through HTML
   static get observedAttributes() {
-    return ['title','spiel','content','background','textcolor'];
+    return ["title", "spiel", "content", "background", "textcolor"];
   }
 
   // Re-render on change
@@ -95,13 +95,20 @@ class contentSlide extends HTMLElement {
 
   // Insert attribute values from HTML in render
   render() {
-   this.title ? this.$slide.querySelector('h3').innerHTML = this.title : null;
-   this.spiel ? this.$slide.querySelector('p').innerHTML = this.spiel : null;
-   this.background ? this.$slide.style.background = this.background : null;
-   this.textcolor ? this.$slide.querySelector('h3').style.color = this.textcolor : null;
-   this.textcolor ? this.$slide.querySelector('h3').style.webkitTextFillColor = this.textcolor : null;
+    this.title
+      ? (this.$slide.querySelector("h3").innerHTML = this.title)
+      : null;
+    this.spiel ? (this.$slide.querySelector("p").innerHTML = this.spiel) : null;
+    this.background ? (this.$slide.style.background = this.background) : null;
+    this.textcolor
+      ? (this.$slide.querySelector("h3").style.color = this.textcolor)
+      : null;
+    this.textcolor
+      ? (this.$slide.querySelector("h3").style.webkitTextFillColor =
+          this.textcolor)
+      : null;
   }
 }
 
 // Define custom element
-window.customElements.define('content-slide', contentSlide);
+window.customElements.define("content-slide", contentSlide);
