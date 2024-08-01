@@ -592,17 +592,17 @@ h2 {
 .memberList {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.memberList p {
+  flex: 1;
+  padding-right: .5rem;
 }
 
 .member {
   break-inside: avoid-column;
 }
-
-.memberList p.members {
-  columns: 5rem 3;
-  width: 100%;
-}
-
 .memberDetails {
   margin-bottom: 1rem;
   display: block;
@@ -619,14 +619,7 @@ h2 {
 .memberList p {
   font-size: 0.8rem;
   line-height: 1rem;
-}
-
-@media screen and (max-width: 1000px) {
-  .memberList p {
-    font-size: 1rem;
-    min-width: 100%;
-    line-height: 1.25rem;
-  }
+  flex: 1;
 }
 
 nav {
