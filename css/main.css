@@ -569,6 +569,7 @@ h2 {
 .mugshot {
   width: 10rem;
   height: 10rem;
+  clip-path: polygon(50% 0, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
 }
 
 @media screen and (max-width: 1000px) {
@@ -597,7 +598,7 @@ h2 {
 
 .memberList p {
   flex: 1;
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .member {

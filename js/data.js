@@ -56,8 +56,14 @@ export const events = [
   { title: "Corporate Sector Session" },
   { title: "Costumes & Cocktails at Lyric Opera" },
   { title: "Cybersecurity: Tales from the Battlefield" },
-  { title: "Discussion and Lunch with Katherine Gehl; Author and Founder of The Campaign for Final Five Voting" },
-  { title: "Emerita is Not a Four-Letter Word | Round Table Discussion and Lunch " },
+  {
+    title:
+      "Discussion and Lunch with Katherine Gehl; Author and Founder of The Campaign for Final Five Voting",
+  },
+  {
+    title:
+      "Emerita is Not a Four-Letter Word | Round Table Discussion and Lunch ",
+  },
   { title: "Emerita Social Gathering Dinner" },
   { title: "Financial Services Sector Session " },
   { title: "Health Trends, Innovation, and the Digital Economy Forum" },
@@ -72,8 +78,13 @@ export const events = [
   { title: "New Year's Celebration" },
   { title: "Prepare Your Board Bio with Industry Experts" },
   { title: "Private Dinners" },
-  { title: "Professional Services & Associations, Mid-size Private Co. Sector Session " },
-  { title: "TCN & Chicago Sky Panel Discussion and Sky Vs. Las Vegas Aces Game" },
+  {
+    title:
+      "Professional Services & Associations, Mid-size Private Co. Sector Session ",
+  },
+  {
+    title: "TCN & Chicago Sky Panel Discussion and Sky Vs. Las Vegas Aces Game",
+  },
   { title: "The Conservation Center Private Tour & Reception" },
   { title: "Virtual Discussion with Nikki Erlick, author of The Measure" },
   { title: "Women Corporate Directors Forum" },
@@ -155,6 +166,12 @@ export const eventPics = [
   { imgUrl: "./images/Events/25.webp", imgAlt: "" },
   { imgUrl: "./images/Events/26.webp", imgAlt: "" },
   { imgUrl: "./images/Events/27.webp", imgAlt: "" },
+  { imgUrl: "./images/Events/28.webp", imgAlt: "" },
+  { imgUrl: "./images/Events/29.webp", imgAlt: "" },
+  { imgUrl: "./images/Events/30.webp", imgAlt: "" },
+  { imgUrl: "./images/Events/31.webp", imgAlt: "" },
+  { imgUrl: "./images/Events/32.webp", imgAlt: "" },
+  { imgUrl: "./images/Events/33.webp", imgAlt: "" },
 ];
 
 export const logos = [
