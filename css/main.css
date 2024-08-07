@@ -490,6 +490,23 @@ html {
   object-fit: cover;
 }
 
+.tcnPressContainer {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+}
+
+tcn-press::part(main) {
+  background: var(--h3-background);
+  font-family: var(--pFontFamily);
+}
+
+tcn-press::part(title) {
+  font-family: var(--hhhFontFamily);
+}
+
 .signature {
   width: 10rem;
   height: 5rem;
