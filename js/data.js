@@ -177,7 +177,7 @@ export const eventPics = [
 export const logos = [
   {
     imgAlt: "Access Living of Metropolitan Chicago",
-    imgUrl: "./images/EPLogos/Access Living.jpg",
+    imgUrl: "./images/EPLogos/accessliving.jpg",
   },
   { imgAlt: "Altair", imgUrl: "./images/EPLogos/altair.png" },
   {
@@ -248,7 +248,7 @@ export const logos = [
     imgAlt: "Chicago Equity Partners",
     imgUrl: "./images/EPLogos/ChicagoEquity.png",
   },
-  { imgAlt: "Chicago Public Media", imgUrl: "" },
+  { imgAlt: "Chicago Public Media", imgUrl: "./images/EPLogos/CPM_Logo.svg" },
   {
     imgAlt: "City Tech Collaborative",
     imgUrl: "./images/EPLogos/cityTech.png",
@@ -328,7 +328,7 @@ export const logos = [
   },
   {
     imgAlt: "Inova Energy Group",
-    imgUrl: "./images/INOVA_Energy_Group__Primary_Logo.jpg",
+    imgUrl: "./images/EPLogos/INOVA.jpg",
   },
   { imgAlt: "Isobar", imgUrl: "./images/EPLogos/isobar.jpg" },
   {
@@ -357,7 +357,7 @@ export const logos = [
   { imgAlt: "Marsh", imgUrl: "./images/EPLogos/MArsh.jpg" },
   { imgAlt: "Medical Home Network", imgUrl: "./images/EPLogos/MHN_logo.png" },
   { imgAlt: "Mercer", imgUrl: "./images/EPLogos/0026.png" },
-  { imgAlt: "Morgan Stanley", imgUrl: "./images/EPLogos/MS_Logo-13p0_K.png" },
+  { imgAlt: "Morgan Stanley", imgUrl: "./images/EPLogos/MorganStanley.png" },
   { imgAlt: "Morningstar", imgUrl: "./images/EPLogos/Morningstar.png" },
   { imgAlt: "MxD", imgUrl: "./images/EPLogos/MD.png" },
   {
