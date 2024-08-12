@@ -15,6 +15,35 @@
   src: url("../fonts/Coconat-Bold.woff2") format("woff2");
 }
 
+/* pt-sans-bold */
+@font-face {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/pt-sans-bold.woff2) format("woff2");
+}
+/* pt-sans-bold-italic */
+@font-face {
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/pt-sans-bold-italic.woff2) format("woff2");
+}
+/* pt-sans-italic */
+@font-face {
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: 400;
+  src: url(../fonts/pt-sans-italic.woff2) format("woff2");
+}
+/* pt-sans */
+@font-face {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/pt-sans.woff2) format("woff2");
+}
+
 :root {
   /* Transition Slide Custom Properties */
   --slideImageBG: white;
