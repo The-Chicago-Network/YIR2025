@@ -97,7 +97,6 @@ export const WIFLImages = [
   { imgUrl: "./images/wifl/WIFL2.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/WIFL3.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/WIFL4.webp", imgAlt: "" },
-  { imgUrl: "./images/wifl/WIFL5.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/WIFL6.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/WIFL7.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/WIFL8.webp", imgAlt: "" },
@@ -154,8 +153,6 @@ export const eventPics = [
   { imgUrl: "./images/Events/13.webp", imgAlt: "" },
   { imgUrl: "./images/Events/14.webp", imgAlt: "" },
   { imgUrl: "./images/Events/15.webp", imgAlt: "" },
-  { imgUrl: "./images/Events/16.webp", imgAlt: "" },
-  { imgUrl: "./images/Events/17.webp", imgAlt: "" },
   { imgUrl: "./images/Events/18.webp", imgAlt: "" },
   { imgUrl: "./images/Events/19.webp", imgAlt: "" },
   { imgUrl: "./images/Events/20.webp", imgAlt: "" },
@@ -170,7 +167,6 @@ export const eventPics = [
   { imgUrl: "./images/Events/29.webp", imgAlt: "" },
   { imgUrl: "./images/Events/30.webp", imgAlt: "" },
   { imgUrl: "./images/Events/31.webp", imgAlt: "" },
-  { imgUrl: "./images/Events/32.webp", imgAlt: "" },
   { imgUrl: "./images/Events/33.webp", imgAlt: "" },
 ];
 
