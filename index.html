@@ -19,7 +19,16 @@
 
     <meta name="theme-color" content="#fafafa" />
     <script src="./js/wow.min.js" type="text/javascript"></script>
-    <!--<script src="./js/rellax.min.js" type="text/javascript"></script>-->
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="js/p5.min.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="js/flocking.js"
+    ></script>
     <script type="module" src="./js/main.js"></script>
   </head>
 
@@ -45,27 +54,10 @@
     </nav>
     <article>
       <section id="introduction">
-        <slide-no-header
-          background="URL('./images/pexels-chaitaastic-1823680.png') center top / cover no-repeat, linear-gradient(90deg, rgba(74,71,185,1) 0%, rgba(71,48,115,1) 59%, rgba(43,40,61,1) 100%)"
-          class="fade-in-bottom titleslide"
-        >
-          <!-- Falling animation -->
-          <ul class="bubbles">
-            <li class="bubble"></li>
-            <li class="bubble"></li>
-            <li class="bubble"></li>
-            <li class="bubble"></li>
-            <li class="bubble"></li>
-            <li class="bubble"></li>
-            <li class="bubble"></li>
-            <li class="bubble"></li>
-            <li class="bubble"></li>
-            <li class="bubble"></li>
-          </ul>
-          <!-- /Falling animation -->
+        <slide-no-header background="none" class="fade-in-bottom titleslide">
           <div class="titleContainer">
-            <img class="titleSVG" src="./images/TCN_logo_white.svg" />
-            <h1 class="mainHeader fadeInTop">2024 Year in Review</h1>
+            <img class="titleSVG" src="./images/TCN_Secondary_Logo_RGB.svg" />
+            <h1 class="mainTitle"><br /><br />Year In Review | 2025</h1>
           </div>
         </slide-no-header>
         <content-slide
@@ -203,7 +195,7 @@
           <ul class="statsWrapper">
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber">32</div>
+                <div class="statNumber">37</div>
                 <div class="statInfo">Fortune 500 C-Suite Executives</div>
               </div>
             </li>
@@ -245,25 +237,25 @@
             </li>
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber">9</div>
+                <div class="statNumber">11</div>
                 <div class="statInfo">University Presidents</div>
               </div>
             </li>
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber">19</div>
+                <div class="statNumber">24</div>
                 <div class="statInfo">Arts and Culture Trailblazers</div>
               </div>
             </li>
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber">54</div>
+                <div class="statNumber">55</div>
                 <div class="statInfo">Corporate C-Suite Executives</div>
               </div>
             </li>
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber">49</div>
+                <div class="statNumber">56</div>
                 <div class="statInfo">
                   CEOs and Entrepreneurs of Mid-Size Companies
                 </div>
@@ -271,25 +263,25 @@
             </li>
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber smallStat">50+</div>
+                <div class="statNumber smallStat">100+</div>
                 <div class="statInfo">Corporate Directors</div>
               </div>
             </li>
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber">9</div>
+                <div class="statNumber">6</div>
                 <div class="statInfo">Government Leaders</div>
               </div>
             </li>
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber">10</div>
+                <div class="statNumber">21</div>
                 <div class="statInfo">Healthcare Industry Executives</div>
               </div>
             </li>
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber">29</div>
+                <div class="statNumber">28</div>
                 <div class="statInfo">Higher Education Institution Leaders</div>
               </div>
             </li>
@@ -301,13 +293,13 @@
             </li>
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber">27</div>
+                <div class="statNumber">22</div>
                 <div class="statInfo">Media and Communications Executives</div>
               </div>
             </li>
             <li data-wow-duration=".35s" class="wow fade-in-bottom stat">
               <div class="statCopy">
-                <div class="statNumber">41</div>
+                <div class="statNumber">44</div>
                 <div class="statInfo">Law Industry Leaders</div>
               </div>
             </li>
@@ -556,100 +548,62 @@
           <div class="memberList wow fade-in-bottom">
             <p>
               <strong>Chair</strong><br />
-              Suzet McKinney<br />
-              Principal and Director of Life Sciences<br />
-              Sterling Bay<br /><br />
-
-              <strong>Vice Chair / Chair-Elect</strong><br />
               Deb Boyda<br />
-              Former CEO, Dentsu International Network<br />
-              Corporate Board Director<br /><br />
-
-              <strong>Secretary-Treasurer</strong><br />
+              Former CEO/Dentsu International Network. Corporate Board Director<br /><br />
+              <strong>Immediate Past Chair/Nominating Committee Chair</strong><br />
+              Suzet McKinney<br />
+              Founder, Benson Consulting<br /><br />
+              <strong>Secretary -Treasurer/Finance & Audit Chair</strong><br />
               Tracey Benford<br />
-              Retired Partner<br />
-              Goldman Sachs<br /><br />
-
-              <strong>Immediate Past Chair</strong><br />
-              Linda Imonti<br />
-              Senior Advisor, Virtas Partners<br />
-              Former National Ignition Leader and Chicago Office Managing
-              Principal, KPMG<br /><br />
-
+              Retired Partner, Goldman Sachs<br /><br />
+              Cathy Birkeland<br />
+              Partner, Latham &
+              Watkins LLP, Former
+              Chicago Office Managing
+              Partner and Global Co-
+              Chair Capital Markets
+              Practice Group<br /><br />
               Barbra Bukovac<br />
-              Partner/Vice Chairman - Consumer Markets<br />
-              PwC<br /><br />
-
+              PwC, Vice Chair<br /><br />
               Christina Corley<br />
-              Chief Commercial and Operating Officer<br />
-              CDW<br /><br />
-
+              President, International & Vice Chair<br /><br />
               Marsha Cruzan<br />
-              Regional President<br />
-              U.S. Bank<br /><br />
+              Former Regional President, U.S. Bank<br /><br />
             </p>
             <p>
+              <strong>Vice Chair/Chair-Elect</strong><br />
               Francesca DeBiase<br />
-              Board Director,<br />
-              Sysco Corp and Norfolk Southern Corp<br /><br />
-
+              Board Director - Sysco Corp and Norfolk Southern Corp.<br /><br />
               Sidney Dillard<br />
-              Partner and Head of Corporate Investment Banking<br />
-              Loop Capital Markets<br /><br />
-
+              Partner and Head of Corporate Investment Banking, Loop Capital Markets<br /><br />
               Janet Foutty<br />
-              Former Executive Chair of the Board<br />
-              Deloitte U.S.<br /><br />
-
+              Former Executive Chair of The Board, Deloitte U.S.<br /><br />
+              Natasha Galavotti<br />
+              Strategic Advisor, Food Manufacturing and Former President, Bimbo QSR<br /><br />
               Yonhee Choi Gordon<br />
-              Principal, Chief Operating Officer & Chief Marketing Officer<br />
-              JMG Financial Group<br /><br />
-
+              Former Principal, Chief Operating Officer & Chief Marketing Officer, JMG Financial Group<br /><br />
               Sara Greenstein<br />
-              CEO<br />
-              Axel Johnson Inc.<br /><br />
-
-              Patricia Brown Holmes<br />
-              Managing Partner<br />
-              Riley Safer Holmes & Cancila LLP<br /><br />
-
+              CEO, Axel Johnson Inc.<br /><br />
               Susan Jacobs<br />
-              Senior Vice President Sales, City Brands<br />
-              Crain Communications<br /><br />
+              Senior Director, Global Partnerships, Bombora<br /><br />
             </p>
             <p>
               Beth Kirk Malecki<br />
-              Senior Partner, US Central Zone Leader<br />
-              Mercer<br /><br />
-
+              Senior Partner, US Central Zone Leader, Mercer<br /><br />
+              Jennifer Lyons<br />
+              President and General Manager, CBS Chicago<br /><br />
               Aurelie Richard<br />
-              Chief Finance Administration and Strategy Officer<br />
-              S&C Electric Company<br /><br />
-
-              Joyce St. Clair<br />
-              Former Chief Human Resource Officer<br />
-              The Northern Trust<br /><br />
-
+              Chief Finance and Strategy Officer, S&C Electric Company<br /><br />
               Celena Sarillo<br />
-              CEO<br />
-              American Red Cross of Illinois<br /><br />
-
+              Executive Director, Start Early<br /><br />
               Julie Scott<br />
-              President, CEO and Founder<br />
-              CTS Impact<br /><br />
-
-              Zaldwaynaka (“Z”) Scott<br />
-              President<br />
-              Chicago State University<br /><br />
-
-              Dana Mara Thompson, MD, MS, MBA, FACS<br />
-              Division Head, Otolaryngology, Vice Chair of Ambulatory Practice,
-              Pediatric Surgery<br />
-              Lurie Children’s Hospital<br /><br />
-
+              President, CEO and Founder, CTS Impact<br /><br />
+              Zaldwaynaka (""Z"") Scott Scott<br />
+              President, Chicago State University<br /><br />
+              Dana Thompson<br />
+              Division Head, Otolaryngology, Vice Chair of Ambulatory Practice, Pediatric Surgery, Lurie Children's Hospital<br /><br />
               Sona Wang<br />
-              Co-Founder<br />
-              Randolph Entertainment, LLC<br /><br />
+              Managing Director, Cimweek Partners, LLC<br /><br />
             </p>
           </div>
         </content-slide>
@@ -682,7 +636,9 @@
         <content-slide
           title="Inspiring Hundreds Through HerStories"
           class="wow fade-in-bottom"
-          spiel="This year we completed our second season of TCN's popular <a href='https://www.herstories.fm'>HerStories podcast</a>. With close to 1,000 downloads, hundreds of listeners have tuned in to hear unscripted conversations with Chicago's most powerful women as they reveal their inspirational journeys, including the highs, lows, challenges, and their hopes for the future."
+          spiel="This year we proudly wrapped up our third season of The Chicago Network’s highly regarded <a href='https://www.herstories.fm'>“HerStories” podcast</a>. With over 2,000 downloads, listeners have been captivated by the raw, unscripted conversations with some of Chicagoland’s most influential women. Each episode offers an intimate glimpse into their remarkable journeys, exploring not only their professional triumphs but also their personal challenges, pivotal moments, and aspirations for the future. The podcast has not only amplified their voices but has also served as a source of inspiration for those navigating their own paths. Through these candid discussions, the series continues to foster a sense of community and empowerment, highlighting the diverse experiences that shape the landscape of leadership in Chicago and beyond.
+
+          "
           id="initiatives"
         >
           <div class="flexContainer">
@@ -866,7 +822,7 @@
         </transition-slide>
         <content-slide
           title="Broader Influence and Advocacy with Equity Principles"
-          spiel="The Chicago Network is honored to work with our Equity Principles Campaign partners to fight for gender equity in leadership ranks as well as strengthen the pipeline for women leaders. Our focus on achieving gender equity in the workplace and safeguarding against any further setbacks is more critical than ever. Targeting for gender equity by 2030 aligns us with the globally recognized benchmark set by the United Nations’ Sustainable Development Goals, as well as a growing number of state and national governments and public, private, and international organizations. In this fiscal year, we reached a milestone of over 100 signatories to this important campaign."
+          spiel="The Chicago Network is proud to collaborate with our partners in the Equity Principles campaign to advance gender equity in leadership and support the continued growth of women leaders.  Ensuring progress toward an equitable workplace, while being mindful of the broader climate, is more important than ever. It is well-documented that having women at the table in senior executive roles greatly contributed to organizational success, whether in profitability, innovation, or the long-term sustainability of values-based leadership.  Our commitment to gender equity aligns us with the globally recognized benchmark set by the United Nations’ Sustainable Development Goals and the efforts of many organizations across sectors and borders."
           class="wow fade-in-bottom"
         >
           <div slot="outer" class="objectField" id="logoCards"></div>
@@ -883,7 +839,7 @@
         </transition-slide>
         <content-slide
           title="Annual Meeting"
-          spiel="Our Annual Meeting was held this year at the Peninsula Hotel, featuring keynote speaker Penny Abeywardena, Founder & CEO of Soft Power Strategies. The membership elected a new slate of Board of Directors, celebrated friendships, and enjoyed spending quality time with each other over great food and wine."
+          spiel="Our Annual Meeting was held this year at The Ivy Room, where members elected a new slate of directors and celebrated the spirit of our community. We were honored to welcome our new Board Chair, Francesca DeBiase, and to hear thoughtful reflections from our outgoing Board Chair, Deb Boyda.  Francesca also shared her vision and insights for the future of the organization, inspiring enthusiasm for the year ahead.  The evening was a wonderful opportunity to celebrate friendships and enjoy meaningful conversations over delicious food and wine."
           class="wow fade-in-bottom"
         >
           <div class="AMPics" slot="outer"></div>
@@ -900,7 +856,7 @@
         </transition-slide>
         <content-slide
           title="WhatItTakes: Empowered Programming"
-          background="linear-gradient(90deg, rgba(74, 71, 185, 1) 0%, rgba(71, 48, 115, 1) 59%, rgba(43, 40, 61, 1) 100%)"
+          background="linear-gradient(29deg,rgba(32, 66, 92, 1) 0%, rgba(32, 89, 92, 0.7) 100%)"
           textcolor="white"
           class="wow fade-in-bottom"
           id="programming"
@@ -935,100 +891,95 @@
           <div class="memberList wow fade-in-bottom">
             <p>
               <strong>Executive Committee</strong><br />
-              Suzet McKinney, Chair<br />
-              Deb Boyda, Vice Chair<br />
-              Linda Imonti, Immediate Past Chair/Nominating Committee Chair<br />
+              Deb Boyda, Chair<br />
+              Francesca DeBiase, Vice Chair<br />
+              Suzet McKinney, Immediate Past Chair/Nominating Committee Chair<br />
               Tracey Benford, Treasurer<br />
-              Denise Singleton<br />
+              Linda Imonti<br />
+              Dana Thompson<br />
+              Anna May Trala<br />
               <br />
               <strong>Finance and Audit Committee </strong><br />
               Tracey Benford, Chair<br />
               Deb Boyda<br />
+              Francesca DeBiase<br />
               Sidney Dillard<br />
               Geraldine Keefe<br />
               Roxanne Martino<br />
-              Suzet McKinney<br />
               <br />
               <strong>Governance Committee</strong><br />
               Marsha Cruzan, Chair<br />
               Christina Corley<br />
-              Patricia Holmes<br />
-              Grace Hou<br />
+              Z Scott<br />
               <br />
               <strong>Membership Committee</strong><br />
               Janet Foutty, Chair<br />
-              Jean Franczyk, Chair, Arts & Culture Subcommittee<br />
-              Natasha Galavotti, Chair, Corporate Subcommittee<br />
-              Mary Josephs, Chair, Financial Services Subcommittee<br />
-              Z. Scott, Chair, Government Subcommittee<br />
-              Verneda Bachus, Chair, Health, Science & Medicine Subcommittee<br />
-              Susan Poser, Chair, Higher Education Subcommittee<br />
-              Cathy Birkeland, Chair, Law Subcommittee<br />
-              Alison Scholly, Chair, Media & Communications Subcommittee<br />
-              Erin Inman, Chair, Mid-Size Private Companies Subcommittee<br />
-              Jane Mentzinger, Chair, Nonprofit Subcommittee<br />
-              Kathy Scherer, Chair, Professional Services & Associations
-              Subcommittee<br />
+              Cathy Birkeland, Chair, Law Membership Subcommittee
+              Jean Franczyk, Chair, Arts and Culture Membership Subcommittee
+              Natasha Galavotti, Chair, Corporate Membership Subcommittee
+              Erin Inman, Chair, Mid-Size Private Companies Membership Subcommittee
+              Janice Jackson, Chair, Government Membership Subcommittee
+              Janet Mentzinger, Chair, Nonprofit Membership Subcommittee
+              Susan Poser, Chair, Higher Education Membership Subcommittee
+              Kathy Scherer, Chair, Professional Services and Associations Membership Subcommittee
+              Alison Scholly, Chair, Media and Communications Membership Subcommittee
+              Dana Thompson, Chair, Health, Science, and Medicine Membership Subcommittee
+              Julie Vander Weele, Chair, Financial Services Membership Subcommittee
               <br />
               <strong>Communications Committee</strong><br />
               Susan Jacobs, Chair<br />
               Gayla Brockman<br />
-              Kathleen Carroll<br />
               Yvonne Franzese<br />
-              Stephanie Hickman<br />
               Lindsay Jenkins<br />
-              Kary McIlwain<br />
+              Kary McILwain<br />
               Diane Pearse<br />
               Michelle Russell<br />
-              Mary Lee Schneider<br />
               Jill Smart<br />
               Maxine Winer<br />
               <br />
               <strong>Emerita Committee</strong><br />
               Anna Rappaport, Chair<br />
+              Regine Corrado<br />
+              Marilyn Kelly<br />
               Barbara Provus<br />
-              Libbet Richter<br />
-              Wilma Smelcer<br />
+              Libbett Richter<br />
               Toni Smith<br />
               <br />
               <strong>Launchpad Committee</strong><br />
               Yonhee Gordon, Chair<br />
-              Aarti Dhupelia<br />
-              Karyn Esken<br />
               Karyn Esken<br />
               Susan Gallagher<br />
-              Stephanie Hickman<br />
               Teresa Harmon<br />
-              Laurie Joyner<br />
-              Rebekah Kohmescher<br />
+              Beka Kohmescher<br />
               Tracie Morris<br />
               Anna Paglia<br />
               Maria Pesqueira<br />
               Aurelie Richard<br />
               Heather Russell<br />
               Kathy Scherer<br />
-              Kim Taylor<br />
               <br />
               <strong>Programs & Engagement Committee</strong><br />
               Barbra Bukovac, Chair<br />
-              Linda Coberly<br />
+              Susan Abrams<br />
+              Caroline Becker Joss<br />
+              Kathy Bolhous<br />
               Elizabeth Coolidge<br />
               Angelique David<br />
               Karyn Esken<br />
               Brooke Flanagan<br />
+              Pamela Forbes Lieberman<br />
+              Maricela Garcia<br />
               Sarah Guernsey<br />
               Erin Inman<br />
               Cathy Kenworthy<br />
-              Pamela Forbes Lieberman<br />
               Katie Lawler<br />
               Jill Nicholson<br />
-              Mary Lee Schneider<br />
               Jill Smart<br />
               Susan Stelter<br />
               Anna Valencia<br />
+              Sona Wang<br />
               Carole Wood<br />
               Kathleen Yosko<br />
-              Sona Wang<br />
               <br />
             </p>
             <p>
@@ -1046,76 +997,91 @@
               <br />
               <strong>Women on Boards Committee</strong><br />
               Sara Greenstein, Chair<br />
+              Anne Alonzo<br />
               Deb Boyda<br />
-              Tierney Remick<br />
               Suzanne Burns<br />
+              Ellen Carnahan<br />
               Margo Cook<br />
+              Sandya Dandamudi<br />
               Katie Doyle<br />
-              Chris Edwards<br />
+              Vicki Dudley<br />
+              Christine Edwards<br />
+              Sandra Helton<br />
               Mary Josephs<br />
+              Virginia Kendall<br />
               Blythe McGarvie<br />
-              Terri McNally<br />
               Suzet McKinney<br />
+              Terri McNally<br />
+              Nivine Megahed<br />
+              Diane Offereins<br />
               Lauren Patnaude<br />
               Alison Ranney<br />
+              Tierney Remick<br />
+              Lois Scott<br />
               Denise Singleton<br />
+              Laura Thonn<br />
               Anna May Trala<br />
               Yasmine Winkler<br />
+              Maria Zec<br />
               Ann Ziegler<br />
               <br />
               <strong>Arts & Culture Membership Subcommittee</strong><br />
               Jean Franczyk, Chair<br />
-              Susan Abrams<br />
+              Jennifer Farrington<br />
               Sarah Guernsey<br />
-              Perri Imer<br />
+              Perri Irmer<br />
               Megan Ross<br />
               <br />
               <strong>Corporate Membership Subcommittee</strong><br />
               Natasha Galavotti, Chair<br />
-              Lucy Brady<br />
               Sue Bettman<br />
+              Lucy Brady<br />
               Vicki Dudley<br />
               Therese Fauerbach<br />
-              Natasha Galavotti<br />
-              Susan Gallagher<br />
               Laura Gurski<br />
               Beth Kirk Malecki<br />
+              Marilyn Lissner<br />
               Terri McNally<br />
-              Laurie O’Shea<br />
+              Laurie O'Shea<br />
               Katie Rooney<br />
               Kathy Seegebrecht<br />
+              Sheryl Van Anne<br />
               Wanji Walcott<br />
               Maryann Waryjas<br />
-              Yasmine Winkler<br />
               <br />
               <strong>Financial Services Membership Subcommittee</strong><br />
-              Mary Josephs, Chair<br />
+              Julie Vander Weele, Chair<br />
               Elizabeth Browne<br />
+              Patrice DeCorrevont<br />
               Sidney Dillard<br />
-              Anna May Trala<br />
+              Mary Josephs<br />
               Beth Karlson<br />
-              Julie Vander Weele<br />
-              Rebekah Kohmescher<br />
+              Beka Kohmescher<br />
               Roxanne Martino<br />
               Joyce St. Clair<br />
-              Patrice DeCorrevont<br />
+              Lois Scott<br />
+              Anna May Trala<br />
               <br />
               <strong>Government Membership Subcommittee</strong><br />
-              Z. Scott, Chair<br />
+              Janice Jackson, Chair<br />
               Melissa Bean<br />
               Kim Foxx<br />
               Janice Jackson<br />
               Robin Kelly<br />
+              Jamie Rhee<br />
+              Z Scott<br />
+              Lois Scott<br />
               Juliana Stratton<br />
               Anna Valencia<br />
               <br />
               <strong>Health, Science & Medicine Subcommittee</strong><br />
-              Verneda Bachus, Chair<br />
+              Dana Thompson, Chair<br />
+              Verneda Bachus<br />
               Jan Berger<br />
               Deborah Bowen<br />
-              Cheryl Lulias<br />
               Michelle Stephenson<br />
               Dana Thompson<br />
+              Lisa Wagamon<br />
               Brenda Wolf<br />
               Kathleen Yosko<br />
               <br />
@@ -1124,34 +1090,35 @@
             <p>
               <strong>Higher Education Membership Subcommittee</strong><br />
               Susan Poser, Chair<br />
+              Aarti Dhupelia<br />
+              Lisa Freeman<br />
               Beth Harris<br />
               Elaine Maimon<br />
               Stephanie Marshall<br />
               Marilyn McCoy<br />
+              Susan Poser<br />
               Jennifer Rosato Perea<br />
               Rebecca Rugg<br />
-              Elissa Tenny<br />
               <br />
               <strong>Law Membership Subcommittee</strong><br />
               Cathy Birkeland, Chair<br />
               Aurora Austriaco<br />
-              Rebecca Bacon<br />
               Mary Clare Bonaccorsi<br />
               Linda Coberly<br />
               Christine Edwards<br />
               Jeanne Gills<br />
               Mary Ann Hynes<br />
               Devi Koya<br />
-              Cathy O’Kelly<br />
               Joan Lefkow<br />
-              Terri Mascherin <br />
+              Terri Mascherin<br />
               Maura Ann McBreen<br />
               Mary Meg McCarthy<br />
               Britt Miller<br />
-              Jill Nicholson <br />
-              Jennifer Nijman<br />
+              Jennifer  Nijman<br />
+              Cathy O'Kelly<br />
               Kristen Prinz<br />
               Tina Tabacchi<br />
+              Rebecca Weinstein Bacon<br />
               Mary Wilson<br />
               <br />
               <strong>Media & Communications Membership Subcommittee</strong
@@ -1159,14 +1126,14 @@
               Alison Scholly, Chair<br />
               Tracy Baim<br />
               Tracy Brown<br />
+              Cari Bucci-Hulings<br />
               Karyn Esken<br />
               E.T. Franklin<br />
-              Cari Bucci-Hulings<br />
               Susan Jacobs<br />
+              Lisa Johnson<br />
               Renetta McCann<br />
               Sandra Micek<br />
-              Nancy Ruscheinski<br />
-              Edna Uribe<br />
+              Alison Scholly<br />
               Maxine Winer<br />
               <br />
               <strong>Mid-Size Private Companies Membership Subcommittee</strong
@@ -1175,13 +1142,15 @@
               Caroline Becker Joss<br />
               Rona Borre<br />
               Eileen Chin<br />
+              Sandya Dandamudi<br />
               Alison Gutterman<br />
               Stephanie Hickman<br />
-              Julie Scott<br />
+              Mary Josephs<br />
               Cheryl Lulias<br />
               Linda Maclachlan<br />
-              Laura Neiman<br />
+              Laura Niemann<br />
               Ellen Rudnick<br />
+              Julie Scott<br />
               Donna Williamson<br />
               <br />
               <strong>Nonprofit Membership Subcommittee</strong><br />
@@ -1190,7 +1159,9 @@
               MarySue Barrett<br />
               Felicia Blakely<br />
               Gillian Darlow<br />
+              Aarti Dhupelia<br />
               Sol Flores<br />
+              Janet Mentzinger<br />
               Alison Ranney<br />
               Celena Sarillo<br />
               Rebekah Scheinfeld<br />
@@ -1205,15 +1176,16 @@
               Kathy Scherer, Chair<br />
               Gina Berndt<br />
               Gila Bronner<br />
-              Donni Case<br />
               Lisa Johnson<br />
               Jackie Koo<br />
               Christine Laurens<br />
               Sharon Lindstrom<br />
+              Marilyn Lissner<br />
               Clare Metcalf<br />
-              Sheila O’Grady<br />
-              Mary Lee Schneider<br />
+              Sheila O'Grady<br />
+              Julie Scott<br />
               Jill Smart<br />
+              Laura Thonn<br />
             </p>
           </div>
         </content-slide>
@@ -1275,12 +1247,15 @@
           </div>
         </content-slide>
         <content-slide
-          title="Thanks"
+          title="Thanks / Colophon"
           class="wow fade-in-bottom"
-          spiel="A special thanks to the women who helped make this report possible through their creative and technical skill, in particular Susan Ryan Kalina Photography, and the women behind the beautiful free and open source typefaces used on this report: Coconat (by Sara Lavazza) and PT sans (by Alexandra Korolkova, Olga Umpeleva and Vladimir Yefimov)."
+          spiel="A special thanks to Susan Ryan Kalina Photography. Set in Deegheest Latitude Regular (by Ange Degheest, Camille Depalle, Eugénie Bidaut, Luna Delabre, Mandy Elbé, May Jolivet, Oriane Charvieux, Benjamin Gomez, and Justine Herbel; distributed by velvetyne.fr) and PT Sans (by Alexandra Korolkova, Olga Umpeleva and Vladimir Yefimov).<br><br>Flocking simulation based on an implementation by Daniel Shiffman based on the research of Craig Reynolds.<br><br>Deegheest Latitude Regular was part of “Reviving Ange Degheest,” an exhibition presenting the work of Ange Degheest, a woman type designer whose work has largely been forgotten."
         >
         </content-slide>
       </section>
     </article>
   </body>
 </html>
+
+
+

@@ -3,14 +3,12 @@ const template = document.createElement("template");
 template.innerHTML = `
   <style>
     h3 {
-      font-family: "Coconat Regular";
+      color: var(--hhhColor);
+      font-family: "Latitude Regular";
       font-size: var(--hhhFontSize);
       font-variation-settings: var(--hhhVariationSettings);
       margin-bottom: 3rem;
       position: relative;
-      background: var(--h3-background);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
       z-index: 10;
     }
 
@@ -30,13 +28,11 @@ template.innerHTML = `
 
     @media all and (max-width: 1000px) {
         h3 {
-          font-family: "Coconat Regular";
+          color: var(--hhhColor);
+          font-family: "Latitude Regular";
           font-size: 2.5rem;
           font-variation-settings: var(--hhhVariationSettings);
           margin-bottom: 4rem;
-          background: var(--h3-background);
-          -webkit-text-fill-color: transparent;
-          -webkit-background-clip: text;
         }
         p {
           font-family: var(--pFontFamily);
