@@ -315,7 +315,7 @@ canvas {
   h1.mainTitle {
     color: #595757;
     text-transform: uppercase;
-    letter-spacing: .25rem;
+    letter-spacing: 0.25rem;
     font-size: 1.25rem;
   }
 }
@@ -716,6 +716,7 @@ p {
 
 .statInfo {
   padding-top: 1rem;
+  font-family: "PT Sans";
 }
 
 .statsWrapper {
@@ -726,16 +727,15 @@ p {
 .statNumber {
   color: white;
   display: inline-block;
-  font-family: "Latitude Regular";
+  font-family: "PT Sans";
   font-size: 2.5rem;
-  font-variation-settings: var(--hhhVariationSettings);
   height: 3.25rem;
   margin-right: 1rem;
   text-align: center;
-  padding: 0.75rem;
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
   width: 3.25rem;
   margin-bottom: 4rem;
-  background: var(--h3-background);
+  background-color: #ca87a1;
   clip-path: circle(farthest-side);
 }
 
