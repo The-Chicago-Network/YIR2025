@@ -405,7 +405,11 @@ html {
 }
 
 tcn-press::part(main) {
-  background: var(--h3-background);
+  background: linear-gradient(
+    29deg,
+    rgba(32, 66, 92, 1) 0%,
+    rgba(32, 89, 92, 0.7) 100%
+  );
   font-family: var(--pFontFamily);
 }
 
