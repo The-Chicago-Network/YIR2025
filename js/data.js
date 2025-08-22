@@ -98,7 +98,6 @@ export const WIFLImages = [
   { imgUrl: "./images/wifl/6.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/7.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/8.webp", imgAlt: "" },
-  { imgUrl: "./images/wifl/9.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/10.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/11.webp", imgAlt: "" },
   { imgUrl: "./images/wifl/12.webp", imgAlt: "" },
@@ -109,7 +108,6 @@ export const WIFLImages = [
 ];
 
 export const LPImages = [
-  { imgUrl: "./images/launchpad/1.webp", imgAlt: "" },
   { imgUrl: "./images/launchpad/2.webp", imgAlt: "" },
   { imgUrl: "./images/launchpad/3.webp", imgAlt: "" },
   { imgUrl: "./images/launchpad/4.webp", imgAlt: "" },
